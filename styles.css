@@ -990,7 +990,7 @@ html {
 	}
 
 	.menu {
-		display: flex;
+		display: 100%;
 	}
 
 	.content-banner {
