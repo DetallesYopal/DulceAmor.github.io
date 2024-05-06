@@ -986,6 +986,7 @@ html {
 		display: block;
 		color: #fff;
 		font-size: 3rem;
+		align-items: center;
 	}
 
 	.menu {
