@@ -72,7 +72,7 @@ function mostrarSweetAlert(nombre) {
     div.innerHTML = `
       <h2>${producto.nombre}</h2>
       <ul>
-        <img src="../img/Catalogo/${producto.img}" alt="${producto.nombre}" width="100%" height="100%"  />
+        <img src="img/Catalogo/${producto.img}" alt="${producto.nombre}" width="100%" height="100%"  />
         <li>Precio: ${producto.precioActual}</li>
         <li>contenido: ${producto.descrip}</li>
       </ul>
