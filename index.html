@@ -149,7 +149,11 @@
 											${producto.descuento ? `<span class="discount">-${producto.descuento}</span>` : ''}
 											<div class="button-group">
 												<span><i class="fa-regular fa-heart"></i></span>
-												<br></div></div>
+												<br></div>
+												    <div class="button-groupp" onclick="mostrarSweetAlert('${producto.nombre}')">
+											                                    <span> <i class="fa-regular fa-eye"> ver Descripcion</i></span>
+											                                    <br>
+											                                </div></div>
 										<div class="content-card-product">
 											<div class="stars">
 												${Array.from({ length: producto.estrellas }, () => `<i class="fas fa-star"></i>`).join('')}
@@ -231,7 +235,11 @@
 											${producto.descuento ? `<span class="discount">-${producto.descuento}</span>` : ''}
 											<div class="button-group">
 												<span><i class="fa-regular fa-heart"></i></span>
-												<br></div></div>
+												<br></div>
+												    <div class="button-groupp" onclick="mostrarSweetAlert('${producto.nombre}')">
+											                                    <span> <i class="fa-regular fa-eye"> ver Descripcion</i></span>
+											                                    <br>
+											                                </div></div>
 										<div class="content-card-product">
 											<div class="stars">
 												${Array.from({ length: producto.estrellas }, () => `<i class="fas fa-star"></i>`).join('')}
@@ -312,5 +320,8 @@
 			src="https://kit.fontawesome.com/81581fb069.js"
 			crossorigin="anonymous"
 		></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <!-- Tu archivo de JavaScript personalizado -->
+        <script src="Templates/script.js"></script>
 	</body>
 </html>
