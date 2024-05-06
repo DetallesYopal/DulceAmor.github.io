@@ -3,7 +3,7 @@
 function mostrarSweetAlert(nombre) {
   
     var productos = [
-            { nombre: "EdicionEspecial", img: "es1.jpeg", categoria:"especial",descuento: "", precioActual: "$98.000", precioAnterior: "", descrip:"❤️Lindo bouquet de 9 fresas con chocolate decoradas en forma de rosas.❤️Arreglo floral con un girasol.❤️Tarjeta personalizada❤️Cintas , moños y envoltura según temática"},
+            { nombre: "EdicionEspecial", img: "es1.jpeg", categoria:"",descuento: "", precioActual: "$98.000", precioAnterior: "", descrip:"❤️Lindo bouquet de 9 fresas con chocolate decoradas en forma de rosas.❤️Arreglo floral con un girasol.❤️Tarjeta personalizada❤️Cintas , moños y envoltura según temática"},
 
             { nombre: "A01", img: "img001.jpeg", categoria:"",descuento: "", precioActual: "$38.000", precioAnterior: "", descrip:"♥️ MINI DONAS CUBIERTAS CON CHOCOLATE ♥️CAJA DE CARTÓN ♥️TEMÁTICA AL GUSTO ♥️MOÑO ♥️TARJETA PERSONALIZADA ♥️ADEREZOS"},
             { nombre: "A02", img: "img2a.jpg", categoria:"",descuento: "", precioActual: "$50.000", precioAnterior: "", descrip:"♥️Waffle doble tipo torta♥️linda caja  marcada a mano♥️Cubiertos ecológicos♥️moño♥️Globo marcado y personalizado ♥️aderezos♥️chocolates variados"},
