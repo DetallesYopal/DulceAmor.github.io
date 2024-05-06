@@ -177,13 +177,11 @@ html {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin: 6em 0 0 auto;
 	padding: 1rem 0;
 }
 
 .navbar .fa-bars {
 	display: none;
-	margin: 6em 0 0 auto;
 }
 
 .menu {
@@ -983,14 +981,12 @@ html {
 
 	.navbar {
 		padding: 1rem 2rem;
-		align-items: center;
 	}
 
 	.navbar .fa-bars {
 		display: block;
 		color: #fff;
 		font-size: 3rem;
-		align-items: center;
 	}
 
 	.menu {
