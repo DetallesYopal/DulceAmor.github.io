@@ -176,13 +176,13 @@ html {
 .navbar {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	align-items: right;
 	padding: 1rem 0;
 }
 
 .navbar .fa-bars {
 	display: none;
-	align-items: center;
+	align-items: right;
 }
 
 .menu {
