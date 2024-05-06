@@ -170,6 +170,7 @@ html {
 /* ************* NAVBAR ************* */
 .container-navbar {
 	background-color: var(--primary-color);
+	align-items: center;
 }
 
 .navbar {
@@ -181,6 +182,7 @@ html {
 
 .navbar .fa-bars {
 	display: none;
+	align-items: center;
 }
 
 .menu {
