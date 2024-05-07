@@ -10,7 +10,7 @@ function mostrarSweetAlert(nombre) {
             { nombre: "A01", img: "img001.jpeg", categoria:"especial",descuento: "", precioActual: "$38.000", precioAnterior: "", descrip:"♥️ MINI DONAS CUBIERTAS CON CHOCOLATE ♥️CAJA DE CARTÓN ♥️TEMÁTICA AL GUSTO ♥️MOÑO ♥️TARJETA PERSONALIZADA ♥️ADEREZOS"},
 						{ nombre: "A02", img: "img2a.jpg", categoria:"especial",descuento: "", precioActual: "$50.000", precioAnterior: "", descrip:"♥️Waffle doble tipo torta♥️linda caja  marcada a mano♥️Cubiertos ecológicos♥️moño♥️Globo marcado y personalizado ♥️aderezos♥️chocolates variados"},
 						{ nombre: "A03", img: "img3.jpg", categoria:"especial",descuento: "", precioActual: "$50.000", precioAnterior: "", descrip:"♥️ Saludable Parfait♥️Cubiertos Ecológicos♥️Tarjeta Personalizada♥️Globo Marcado Y Personalizado♥️Aderezos♥️Moño"},
-						{ nombre: "A04", img: "img4a.jpg", categoria:"especial",descuento: "", precioActual: "$55.000", precioAnterior: "", descrip:"♥️ 8 fresas cubiertas con chocolate♥️linda Caja de cartón decorada♥️tarjeta personalizada♥️Temática al gusto♥️aderezos♥️moño y cintas"},
+						{ nombre: "MadreA04", img: "img4a.jpg", categoria:"especial",descuento: "", precioActual: "$55.000", precioAnterior: "", descrip:"♥️ 8 fresas cubiertas con chocolate♥️linda Caja de cartón decorada♥️tarjeta personalizada♥️Temática al gusto♥️aderezos♥️moño y cintas"},
             
     
     ];
