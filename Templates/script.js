@@ -3,6 +3,8 @@
 function mostrarSweetAlert(nombre) {
   
     var productos = [
+            { nombre: "EdicionMug1", img: "Mug1.jpeg", categoria:"especial",descuento: "", precioActual: "$68.000", precioAnterior: "", descrip:"❤️Mug según ocasión ❤️ 3 rosas y follaje ❤️ 3 Ferreros Rocher ❤️ letrero día de la madre❤️ globo según ocasión ❤️ decoración en general ❤️ mariposas y moños"},
+            { nombre: "EdicionMug2", img: "Mug2.jpeg", categoria:"especial",descuento: "", precioActual: "$98.000", precioAnterior: "", descrip:"❤️Mug metalizado brillante ❤️ 8 rosas y follaje ❤️ 4 Ferreros Rocher ❤️ letrero día de la madre❤️ globo según ocasión ❤️ decoración en general ❤️ mariposas"},
             { nombre: "EdicionEspecial", img: "es1.jpeg", categoria:"",descuento: "", precioActual: "$98.000", precioAnterior: "", descrip:"❤️Lindo bouquet de 9 fresas con chocolate decoradas en forma de rosas.❤️Arreglo floral con un girasol.❤️Tarjeta personalizada❤️Cintas , moños y envoltura según temática"},
 
             { nombre: "A01", img: "MadreA01.jpeg", categoria:"",descuento: "", precioActual: "$38.000", precioAnterior: "", descrip:"♥️ MINI DONAS CUBIERTAS CON CHOCOLATE ♥️CAJA DE CARTÓN ♥️TEMÁTICA AL GUSTO ♥️MOÑO ♥️TARJETA PERSONALIZADA ♥️ADEREZOS"},
