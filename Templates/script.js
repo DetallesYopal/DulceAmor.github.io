@@ -3,6 +3,7 @@
 function mostrarSweetAlert(nombre) {
   
     var productos = [
+            { nombre: "RamoMamá", img: "RM.jpeg", categoria:"especial",descuento: "", precioActual: "$48.000", precioAnterior: "", descrip:"❤️peluche❤️ramillete 3 rosas rojas y follaje ❤️ tarjeta personalizada ❤️ moños y cintas ❤️ emvolura en papel coreano y seda"},
             { nombre: "EspMadera", img: "ES11.jpeg", categoria:"especial",descuento: "", precioActual: "$80.000", precioAnterior: "", descrip:"❤️caja de madera ❤️ te hatsu ❤️ waffle ❤️ parfait personal ❤️ cubiertos ecologicos ❤️ huevos ranchero ❤️ arreglo de globos ❤️ moños y cintas ❤️ tarjeta personalizada"},
             { nombre: "EspecialMamá", img: "EE1.jpeg", categoria:"especial",descuento: "", precioActual: "$65.000", precioAnterior: "", descrip:"Linda caja portátil decorada según ocasión.❤️ botella con jugo de naranja.❤️Sandwich de la casa( jamón ahumado ,queso tajado,porción de pollo artesanal,verduras.)❤️Aderezos❤️Mix de frutas natural❤️Dulces varios❤️Moños ❤️tarjeta según decoracion"},
             { nombre: "EdicionMug2", img: "Mug2.jpeg", categoria:"especial",descuento: "", precioActual: "$98.000", precioAnterior: "", descrip:"❤️Mug metalizado brillante ❤️ 8 rosas y follaje ❤️ 4 Ferreros Rocher ❤️ letrero día de la madre❤️ globo según ocasión ❤️ decoración en general ❤️ mariposas"},
