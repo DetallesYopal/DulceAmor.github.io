@@ -3,6 +3,7 @@
 function mostrarSweetAlert(nombre) {
   
     var productos = [
+            { nombre: "EspMadera", img: "ES11.jpeg", categoria:"especial",descuento: "", precioActual: "$80.000", precioAnterior: "", descrip:"❤️caja de madera ❤️ te hatsu ❤️ waffle ❤️ parfait personal ❤️ cubiertos ecologicos ❤️ huevos ranchero ❤️ arreglo de globos ❤️ moños y cintas ❤️ tarjeta personalizada"},
             { nombre: "EspecialMamá", img: "EE1.jpeg", categoria:"especial",descuento: "", precioActual: "$65.000", precioAnterior: "", descrip:"Linda caja portátil decorada según ocasión.❤️ botella con jugo de naranja.❤️Sandwich de la casa( jamón ahumado ,queso tajado,porción de pollo artesanal,verduras.)❤️Aderezos❤️Mix de frutas natural❤️Dulces varios❤️Moños ❤️tarjeta según decoracion"},
             { nombre: "EdicionMug2", img: "Mug2.jpeg", categoria:"especial",descuento: "", precioActual: "$98.000", precioAnterior: "", descrip:"❤️Mug metalizado brillante ❤️ 8 rosas y follaje ❤️ 4 Ferreros Rocher ❤️ letrero día de la madre❤️ globo según ocasión ❤️ decoración en general ❤️ mariposas"},
             { nombre: "DiaMamá", img: "EE2.jpeg", categoria:"especial",descuento: "", precioActual: "$135.000", precioAnterior: "", descrip:"Linda caja de madera color rosada ❤️Decoración según temática❤️arreglo con globos.❤️Pin día de la madre❤️Lindo mug según temática decorado con arreglo floral❤️3 und ferrero roche❤️Sandwich de la casa❤️Aderezos❤️Botella jugo de naranja❤️Mix de frutas❤️Varios chocolates❤️Cubiertos ecologicos❤️Tarjeta personalizada ❤️Moños y cintas según tematica"},
