@@ -1,59 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Catálogo de Productos</title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-<link rel="stylesheet" href="../styles.css" />
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
-
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Productos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
 </head>
 <body>
     <div class="whatsapp-container">
-						<a href="https://wa.me/+573228766485?text=Buen%20Dia%20Dulce%20Amor%20_Detalles%20Yopal%20estoy%20interesado%20en%20sus%20Servicios%20me%20pueden%20Colaborar">
-							<img src="../img/PhotoWhatsapp.png" alt="Logo Whatsapp" width="50" height="50"></a>
-						</div>
-						
-		<header>
-			<div class="container-hero">
-				<div class="container hero">
-					<div class="customer-support">
-						<i class="fa-solid fa-headset"></i>
-						<div class="content-customer-support">
-							<span class="text">Soporte al cliente</span>
-							<span class="number">+57 313 434 2325</span>
-						</div>
-					</div>
+        <a href="https://wa.me/+573228766485?text=Buen%20Dia%20Dulce%20Amor%20_Detalles%20Yopal%20estoy%20interesado%20en%20sus%20Servicios%20me%20pueden%20Colaborar">
+            <img src="../img/PhotoWhatsapp.png" alt="Logo Whatsapp" width="50" height="50">
+        </a>
+    </div>
+    
+    <header>
+        <div class="container-hero">
+            <div class="container hero">
+                <div class="customer-support">
+                    <i class="fa-solid fa-headset"></i>
+                    <div class="content-customer-support">
+                        <span class="text">Soporte al cliente</span>
+                        <span class="number">+57 313 434 2325</span>
+                    </div>
+                </div>
 
-					<div class="container-logo">
-						<img src="../img/logosinfondo.png" alt="" width="100" height="100">
-					</div>
+                <div class="container-logo">
+                    <img src="../img/logosinfondo.png" alt="" width="100" height="100">
+                </div>
 
-					<div class="container-user"><li><a href="referencia.html"><i class="fa-solid fa-user"></i></a></li>
-						
-						<div class="content-shopping-cart"><a href="https://wa.me/+573228766485?text=Revise%20la%20pagina%20y%20deseo%20agendar%20la%20Ref%20..." class="btn-2" >
-												<i class="fa-solid fa-basket-shopping"></i></a>
-							
-						</div>
-					</div>
-				</div>
-			</div>
+                <div class="container-user">
+                    <li><a href="referencia.html"><i class="fa-solid fa-user"></i></a></li>
+                    <div class="content-shopping-cart">
+                        <a href="https://wa.me/+573228766485?text=Revise%20la%20pagina%20y%20deseo%20agendar%20la%20Ref%20..." class="btn-2">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-			<div class="container-navbar">
-				<nav class="navbar container">
-					<ul class="menu">
-						<li><a href="../index.html">Inicio</a></li>
-						<li><a href="Calendario.html">Calendario</a></li>
-						<li><a href="Informacion.html">Informacion</a></li>
-						<li><a href="referencia.html">Catalogo</a></li>
-						<li><a href="referencia.html?variable=flores">arreglos florales</a></li>
+        <div class="container-navbar">
+            <nav class="navbar container">
+                <ul class="menu">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="Calendario.html">Calendario</a></li>
+                    <li><a href="Informacion.html">Informacion</a></li>
+                    <li><a href="referencia.html">Catalogo</a></li>
+                    <li><a href="referencia.html?variable=flores">arreglos florales</a></li>
+                </ul>
 
-					</ul>
-
-                    <form class="search-form" style="float: right; margin-top: 14px;">
-                    <select class="btn-search" id="filtroCategoria" >
+                <form class="search-form" style="float: right; margin-top: 14px;">
+                    <select class="btn-search" id="filtroCategoria">
                         <option value="todos">Filtrar</option>
                         <option value="especial">para el Dia de Mamá</option>
                         <option value="desayuno">Desayunos Sorpresa</option>
@@ -63,24 +62,25 @@
                         <option value="mug">Mug Personalizados</option>
                         <option value="peluche">Detalles con Peluches</option>
                         <option value="detalle">Detalles Sorpresas</option>
-                    </select></form>
-					
-				</nav>
-			</div>
-		</header>
+                    </select>
+                </form>
+            </nav>
+        </div>
+    </header>
 
-    
     <section class="container specials">
         <h1 class="heading-1"></h1>
         <div class="container-products" id="catalogo">
             <!-- Aquí se cargarán los productos -->
-            
         </div>
     </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             var productos = [
-
+                
+                
                 { nombre: "DE1", img: "DE1.jpg", categorias:["mug","especial","desayuno","detalle","flores","fresas"],descuento: "", precioActual: "$175.000", precioAnterior: "", descrip:"Linda caja de madera color rosada ❤️Decoración según temática❤️arreglo con globos❤️pocillo mug según temática decorado con arreglo floral❤️3 und ferrero roche❤️ensalada de frutas❤️Aderezos❤️Botella té hatsu❤️parfait❤️6 minidonas o fresas con chocolate❤️Varios chocolates❤️Cubiertos ecologicos❤️Tarjeta personalizada ❤️Moños y cintas según tematica"},
             	{ nombre: "A01", img: "A01A.jpg", categorias:["especial","detalle","fresas"], descuento: "", precioActual: "$38.000", precioAnterior: "", descrip:"♥️ MINI DONAS CUBIERTAS CON CHOCOLATE ♥️CAJA DE CARTÓN ♥️TEMÁTICA AL GUSTO ♥️MOÑO ♥️TARJETA PERSONALIZADA ♥️ADEREZOS"},
                 { nombre: "A02", img: "A02.jpeg", categorias:["especial","desayuno"],descuento: "", precioActual: "$50.000", precioAnterior: "", descrip:"♥️Waffle doble tipo torta♥️linda caja  marcada a mano♥️Cubiertos ecológicos♥️moño♥️Globo marcado y personalizado ♥️aderezos♥️chocolates variados"},
@@ -141,6 +141,7 @@
                 { nombre: "Rl8", img: "Rl8.jpg", categorias:["especial","detalle","flores"],descuento: "", precioActual: "$180.000", precioAnterior: "", descrip:"♥️ lindo arreglo florar con 12 rosas y 3 girasoles natural o eternos en liston satinado, follaje variado, moño y tarjeta personalizada"},
                 { nombre: "RMá", img: "RMá.jpeg", categorias:["especial","flores","peluche"],descuento: "", precioActual: "$60.000", precioAnterior: "", descrip:"❤️peluche❤️ramillete 3 rosas naturales o eternas y follaje ❤️ tarjeta personalizada ❤️ moños y cintas ❤️ emvolura"},
 
+
         ];
 
             function limpiarPrecio(precio) {
@@ -151,8 +152,6 @@
                 return limpiarPrecio(a.precioActual) - limpiarPrecio(b.precioActual);
             });
 
-            console.log(productos);
-
             function mostrarProductos(categoria) {
                 var catalogo = document.getElementById("catalogo");
                 catalogo.innerHTML = "";
@@ -160,131 +159,137 @@
                 productos.forEach(function(producto) {
                     if (categoria === "todos" || producto.categorias.includes(categoria)) {
                         var productoHTML = `
-                        <div class="container-productss">
-                        <div class="card-product">
-                            <div class="container-img">
-                                <img src="../img/Catalogo/${producto.img}" alt="${producto.nombre}" />
-                                ${producto.descuento ? `<span class="discount">-${producto.descuento}</span>` : ''}
-                                <div class="button-group">
-                                    <span><i class="fa-regular fa-heart"></i></span>
-                                    <br>
-                                </div>
-
-                                 <div class="button-groupp" onclick="mostrarSweetAlert('${producto.nombre}')">
-                                    <span> <i class="fa-regular fa-eye"> ver Descripcion</i></span>
-                                    <br>
+                            <div class="container-productss">
+                                <div class="card-product">
+                                    <div class="container-img">
+                                        <img src="../img/Catalogo/${producto.img}" alt="${producto.nombre}" />
+                                        ${producto.descuento ? `<span class="discount">-${producto.descuento}</span>` : ''}
+                                        <div class="button-group">
+                                            <span><i class="fa-regular fa-heart"></i></span>
+                                            <br>
+                                        </div>
+                                        <div class="button-groupp" onclick="mostrarSweetAlert('${producto.nombre}')">
+                                            <span> <i class="fa-regular fa-eye"> ver Descripcion</i></span>
+                                            <br>
+                                        </div>
+                                    </div>
+                                    <div class="content-card-product">
+                                        <div class="stars">
+                                            ${Array.from({ length: 5 }, () => `<i class="fas fa-star"></i>`).join('')}
+                                            ${Array.from({ length: 5 - 5 }, () => `<i class="far fa-star"></i>`).join('')}
+                                        </div>
+                                        <h3>Referencia: ${producto.nombre}</h3>
+                                        <span class="add-cart">
+                                            <a href="https://wa.me/+573228766485?text=Revise%20la%20pagina%20y%20deseo%20agendar%20la%20Ref%20${producto.nombre}" class="btn-2">
+                                                <i class="fa-solid fa-basket-shopping"></i>
+                                            </a>
+                                        </span>
+                                        <p class="price">${producto.precioActual} ${producto.precioAnterior ? `<span>${producto.precioAnterior}</span>` : ''}</p>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="content-card-product">
-                                <div class="stars">
-                                    ${Array.from({ length: 5 }, () => `<i class="fas fa-star"></i>`).join('')}
-                                    ${Array.from({ length: 5 - 5 }, () => `<i class="far fa-star"></i>`).join('')}
-                                </div>
-                                <h3>Referencia: ${producto.nombre}</h3>
-                                <span class="add-cart"><a href="https://wa.me/+573228766485?text=Revise%20la%20pagina%20y%20deseo%20agendar%20la%20Ref%20${producto.nombre}" class="btn-2" >
-                                    <i class="fa-solid fa-basket-shopping"></i></a> </span>
-                                <p class="price">${producto.precioActual} ${producto.precioAnterior ? `<span>${producto.precioAnterior}</span>` : ''}</p>
-                             
-                                </div>
-                        </div></div>
-                    `;
+                        `;
                         catalogo.innerHTML += productoHTML;
                     }
                 });
             }
 
-            
             // Mostrar todos los productos al cargar la página
-        mostrarProductos("todos");
+            mostrarProductos("todos");
 
-        // Obtener el valor de la variable de la URL
-        const params = new URLSearchParams(window.location.search);
-        const variable = params.get('variable');
+            // Obtener el valor de la variable de la URL
+            const params = new URLSearchParams(window.location.search);
+            const variable = params.get('variable');
 
-        // Si la variable existe y es "especial", filtrar por la categoría especial
-        if (variable && variable === "especial") {
-            mostrarProductos("especial");
-        }
+            // Si la variable existe y es "especial", filtrar por la categoría especial
+            if (variable && variable === "especial") {
+                mostrarProductos("especial");
+            }
 
-        if (variable && variable === "flores") {
-            mostrarProductos("flores");
-        }
+            if (variable && variable === "flores") {
+                mostrarProductos("flores");
+            }
 
-        if (variable && variable === "desayuno") {
-            mostrarProductos("desayuno");
-        }
+            if (variable && variable === "desayuno") {
+                mostrarProductos("desayuno");
+            }
 
-        // Agregar evento de cambio al select
-        document.getElementById("filtroCategoria").addEventListener("change", function() {
-            var categoriaSeleccionada = this.value;
-            mostrarProductos(categoriaSeleccionada);
-            
+            // Agregar evento de cambio al select
+            document.getElementById("filtroCategoria").addEventListener("change", function() {
+                var categoriaSeleccionada = this.value;
+                mostrarProductos(categoriaSeleccionada);
+            });
+
+            function mostrarSweetAlert(nombre) {
+                alert(`Descripción del producto: ${nombre}`);
+            }
+
+            // Mostrar SweetAlert al cargar la página
+            Swal.fire({
+                title: '¡Bienvenido!',
+                html: `
+                    <p>Para optimizar tu experiencia y comodidad, te recomendamos filtrar nuestras referencias de acuerdo con tus preferencias:</p>
+                    <select id="categoriaSeleccionada" class="swal2-select">
+                        <option value="desayuno">Desayunos Sorpresa</option>
+                        <option value="especial">para el Dia de Mamá</option>
+                        <option value="peluche">Detalles con Peluches</option>
+                        <option value="detalle">Detalles Sorpresas</option>
+                        <option value="flores">Arreglos Florales</option>
+                        <option value="fresas">Fresas y Minidonas con chocolate</option>
+                        <option value="virgen">Figura de la Virgen</option>
+                        <option value="mug">Mug Personalizados</option>
+                        <option value="todos">Todas sin filtro</option>
+                    </select>
+                `,
+                customClass: { popup: 'custom-swal' },
+                confirmButtonText: 'Filtrar',
+                preConfirm: () => {
+                    const categoria = Swal.getPopup().querySelector('#categoriaSeleccionada').value;
+                    return { categoria: categoria };
+                }
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    mostrarProductos(result.value.categoria);
+                }
             });
         });
-
-        function mostrarSweetAlert(nombre) {
-            alert(`Descripción del producto: ${nombre}`);
-        }
     </script>
+
     <footer class="footer">
-			<div class="container container-footer">
-				<div class="menu-footer">
+        <div class="container container-footer">
+            <div class="menu-footer">
+                <div class="newsletter">
+                    <p class="title-footer">¡Bienvenidos!</p>
+                    <div class="content">
+                        <p>Agradecemos a nuestra querida clientela por ser parte esencial de nuestro viaje durante tres años. Nos llena de alegría y gratitud. Seguimos comprometidos con calidad y originalidad para hacer inolvidables sus momentos especiales. ¡Gracias por ser parte de nuestra historia!</p>
+                    </div>
+                </div>
+                <div class="contact-info">
+                    <p class="title-footer">Información de Contacto</p>
+                    <ul>
+                        <li>Yopal Casanare</li>
+                        <li>Teléfono: +57 313 434 2325</li>
+                        <li>WhatsApp: +57 322 876 6485</li>
+                        <li>Correo: dulceamordetalles.yopal@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="information">
+                    <p class="title-footer">Información</p>
+                    <ul>
+                        <li><a href="https://www.facebook.com/profile.php?id=100063538332298&sk=reviews">Acerca de Nosotros</a></li>
+                        <li><a href="https://wa.me/+573134342325?text=Buen%20Dia%20Dulce%20Amor%20_Detalles%20Yopal%20estoy%20interesado%20en%20cotizar%20el%20costo%20de%20domicilio%20para%20la%20siguiente%20direccion">Información Delivery</a></li>
+                        <li><a href="https://wa.me/+573134342325?text=Buen%20Dia%20Dulce%20Amor%20_Detalles%20Yopal%20estoy%20interesado%20en%20sus%20Servicios%20me%20pueden%20Colaborar">Contactános</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p><a href="https://wa.me/+573134342325?text=Buen%20Dia%20Dulce%20Amor%20_Detalles%20Yopal%20estoy%20interesado%20en%20sus%20Servicios%20me%20pueden%20Colaborar">WhatsApp</a></p>
+            </div>
+        </div>
+    </footer>
 
-					<div class="newsletter">
-						<p class="title-footer">¡Bienvenidos!</p>
-
-						<div class="content">
-							<p>
-								Agradecemos a nuestra querida clientela por ser parte esencial de nuestro viaje durante tres años. Nos llena de alegría y gratitud. Seguimos comprometidos con calidad y originalidad para hacer inolvidables sus momentos especiales. ¡Gracias por ser parte de nuestra historia!
-							</p>
-							
-							</div>
-					</div>
-
-					<div class="contact-info">
-						<p class="title-footer">Información de Contacto</p>
-						<ul>
-							<li>
-								Yopal Casanare
-							</li>
-							<li>Teléfono: +57 313 434 2325</li>
-							<li>WhatsApp: +57 322 876 6485</li>
-							<li>Correo: dulceamordetalles.yopal@gmail.com</li>
-						</ul>
-						<div class="social-icons">
-							
-							
-						</div>
-					</div>
-
-					<div class="information">
-						<p class="title-footer">Información</p>
-						<ul>
-							<li><a href="https://www.facebook.com/profile.php?id=100063538332298&sk=reviews">Acerca de Nosotros</a></li>
-							<li><a href="https://wa.me/+573134342325?text=Buen%20Dia%20Dulce%20Amor%20_Detalles%20Yopal%20estoy%20interesado%20en%20cotizar%20el%20costo%20de%20domicilio%20para%20la%20siguiente%20direccion">Información Delivery</a></li>
-							<li><a href="https://wa.me/+573134342325?text=Buen%20Dia%20Dulce%20Amor%20_Detalles%20Yopal%20estoy%20interesado%20en%20sus%20Servicios%20me%20pueden%20Colaborar">Contactános</a></li>
-						</ul>
-					</div>
-				</div>
-
-				<div class="copyright">
-					<p>
-						<a href="https://wa.me/+573134342325?text=Buen%20Dia%20Dulce%20Amor%20_Detalles%20Yopal%20estoy%20interesado%20en%20sus%20Servicios%20me%20pueden%20Colaborar">WhatsApp</a>
-						
-					</p>
-
-					
-				</div>
-			</div>
-		</footer>
-        
-
-		<script
-			src="https://kit.fontawesome.com/81581fb069.js"
-			crossorigin="anonymous"
-		></script>
-        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-        <!-- Tu archivo de JavaScript personalizado -->
-        <script src="../script.js"></script>
-	</body>
+    <script src="https://kit.fontawesome.com/81581fb069.js" crossorigin="anonymous"></script>
+    <!-- Tu archivo de JavaScript personalizado -->
+    <script src="../script.js"></script>
+</body>
 </html>
