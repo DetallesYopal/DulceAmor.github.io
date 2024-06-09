@@ -30,6 +30,12 @@ html {
 	font-weight: 500;
 	font-size: 3rem;
 }
+.custom-swal {
+  width: 500px !important; /* Ajusta el ancho según tus necesidades */
+  height: auto !important; /* Ajusta la altura según tus necesidades */
+  padding: 20px !important; /* Ajusta el padding según tus necesidades */
+  font-size: 1.3em; /* Ajusta el tamaño de la fuente si es necesario */
+}
 .whatsapp-container {
     position: fixed;
     top: 50%;
