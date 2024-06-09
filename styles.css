@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 :root {
-	--primary-color: #c77a9a;
+	--primary-color: #2473c7;
 	--background-color: #f9f5f0;
 	--dark-color: #151515;
 }
@@ -31,10 +31,10 @@ html {
 	font-size: 3rem;
 }
 .custom-swal {
-  width: 500px !important; /* Ajusta el ancho según tus necesidades */
+  width: 550px !important; /* Ajusta el ancho según tus necesidades */
   height: auto !important; /* Ajusta la altura según tus necesidades */
   padding: 20px !important; /* Ajusta el padding según tus necesidades */
-  font-size: 1.3em; /* Ajusta el tamaño de la fuente si es necesario */
+  font-size: 1.4em; /* Ajusta el tamaño de la fuente si es necesario */
 }
 .whatsapp-container {
     position: fixed;
