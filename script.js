@@ -79,7 +79,8 @@ function mostrarSweetAlert(nombre) {
       <h2>${productos.nombre}</h2>
       <ul>
         <img src="../img/Catalogo/${productos.img}" alt="${productos.nombre}" width="100%" height="100%"  />
-        <li>Precio: ${productos.precioActual}</li>
+        <li>Precio: ${productos.precioActual} + costo de envío según ubicación</li>
+        <br>
         <li>contenido: ${productos.descrip}</li>
       </ul>
     `;
@@ -87,7 +88,8 @@ function mostrarSweetAlert(nombre) {
     // Llamar a SweetAlert2 con el contenido HTML personalizado
     Swal.fire({
       html: div, // Icono de información
-      confirmButtonText: 'Cerrar' // Texto del botón de confirmación
+      confirmButtonText: 'Cerrar', // Texto del botón de confirmación
+      customClass: { popup: 'custom-swal' }
     });
   } else {
     // Si no se encuentra el producto, mostrar un mensaje de error
