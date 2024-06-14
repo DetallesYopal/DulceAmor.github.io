@@ -301,11 +301,11 @@
 				<script>
 					
 					var productos = [
-						{ nombre: "A01", img: "A01M.jpg", precioActual: "$38.000", descrip:"♥️ MINI DONAS CUBIERTAS CON CHOCOLATE ♥️CAJA DE CARTÓN ♥️TEMÁTICA AL GUSTO ♥️MOÑO ♥️TARJETA PERSONALIZADA ♥️ADEREZOS"},
-						{ nombre: "A02", img: "A02.jpeg", precioActual: "$50.000", descrip:"♥️Waffle doble tipo torta♥️linda caja  marcada a mano♥️Cubiertos ecológicos♥️moño♥️Globo marcado y personalizado ♥️aderezos♥️chocolates variados"},
-						{ nombre: "A03", img: "A03M.jpg", precioActual: "$50.000", descrip:"♥️ Saludable Parfait♥️Cubiertos Ecológicos♥️Tarjeta Personalizada♥️Globo Marcado Y Personalizado♥️Aderezos♥️Moño"},
-						{ nombre: "A04", img: "A04M.jpeg", precioActual: "$55.000", descrip:"♥️ 8 fresas cubiertas con chocolate♥️linda Caja de cartón decorada♥️tarjeta personalizada♥️Temática al gusto♥️aderezos♥️moño y cintas"},
-            
+						{ nombre: "A01M", img: "A01M.jpg", categorias:["especial"], descuento: "", precioActual: "$43.000", precioAnterior: "", descrip:"♥️ MINI DONAS CUBIERTAS CON CHOCOLATE ♥️CAJA DE CARTÓN ♥️TEMÁTICA AL GUSTO ♥️MOÑO ♥️TARJETA PERSONALIZADA ♥️ADEREZOS"},
+                				{ nombre: "A02M", img: "A02.jpeg", categorias:["especial","desayuno"],descuento: "", precioActual: "$50.000", precioAnterior: "", descrip:"♥️Waffle doble tipo torta♥️linda caja  marcada a mano♥️Cubiertos ecológicos♥️moño♥️Globo marcado y personalizado ♥️aderezos♥️chocolates variados"},
+						{ nombre: "A03H", img: "A03H.jpg", categorias:["especialH"],descuento: "", precioActual: "$45.000", precioAnterior: "50.000", descrip:"♥️ Saludable Parfait♥️Cubiertos Ecológicos♥️Tarjeta Personalizada♥️Globo Marcado Y Personalizado♥️Aderezos♥️Moño"},
+						{ nombre: "A04H", img: "A04H.jpg", categorias:["especialH","detalle","fresas"],descuento: "", precioActual: "$55.000", precioAnterior: "", descrip:"♥️ 8 fresas cubiertas con chocolate♥️linda Caja de cartón decorada♥️tarjeta personalizada♥️Temática al gusto♥️aderezos♥️moño y cintas"},
+						
 					];
 					function mostrarProductos(categoria) {
 						var catalogo = document.getElementById("catalogo");
