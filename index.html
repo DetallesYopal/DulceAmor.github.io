@@ -20,6 +20,17 @@
 				}
 			};
 		</script>
+		<script>
+			window.onload = function() {
+				var now = new Date();
+				var expiryDate = new Date('2024-06-30T20:55:00'); // Fecha y hora de expiración
+				if (now <= expiryDate) {
+					document.getElementById('Papá').style.display = 'block';
+				} else {
+					document.getElementById('Papá').style.display = 'none';
+				}
+			};
+		</script>
 	</head>
 	<body> 
     
@@ -61,13 +72,15 @@
 						<li><a href="Templates/Calendario.html">Calendario</a></li>
 						<li><a href="Templates/Informacion.html">Informacion</a></li>
 						<li><a href="Templates/referencia.html">Catalogo</a></li>
-						<li><a href="Templates/referencia.html?variable=flores">arreglos florales</a></li>
 
 					</ul>
 
 					
 				</nav>
 			</div>
+			<div id="Papá" style="display: none;" class="bannerPadre">
+					<a  href="Templates/referencia.html" ><img src="img/padre.png" alt="diaPapá" ;> </a>
+				</div>
 			<div id="oferta" style="display: none;">
 				<h1 class="heading-1">¡Oferta Relampago Dia 7 de mayo 2024!</h1>
 				
@@ -127,6 +140,8 @@
 											</div>
 									</div>
 				</div>
+
+				
 		</header>
 
 		<section class="banner">
@@ -171,16 +186,16 @@
 				<h1 class="heading-1">Mejores Categorías</h1>
 				<div class="container-categories">
 					<div class="card-category category-celebracion">
-						<p>Dia de la madre</p>
+						<p>Detalles Para Mujer</p>
 						<span><a href="Templates/referencia.html?variable=especial" >Ver más</a></span>
 					</div>
 					<div class="card-category category-detalle">
-						<p>Desayunos Sorpresa</p>
-						<span><a href="Templates/referencia.html?variable=desayuno" >Ver más</a></span>
+						<p>Desayunos Para Niñ@s</p>
+						<span><a href="Templates/referencia.html?variable=especialN" >Ver más</a></span>
 					</div>
 					<div class="card-category category-desayuno">
-						<p>Detalles Sorpresa</p>
-						<span><a href="Templates/referencia.html" >Ver más</a></span>
+						<p>Detalles Para Hombre</p>
+						<span><a href="Templates/referencia.html?variable=especialH" >Ver más</a></span>
 					</div>
 					
 				</div>
@@ -200,11 +215,11 @@
 				<script>
 					
 					var productos = [
-						{ nombre: "DMá", img: "DMá.jpeg", precioActual: "$135.000", descrip:"Linda caja de madera color rosada ❤️Decoración según temática❤️arreglo con globos.❤️Pin día de la madre❤️Lindo mug según temática decorado con arreglo floral❤️3 und ferrero roche❤️Sandwich de la casa❤️Aderezos❤️Botella jugo de naranja❤️Mix de frutas❤️Varios chocolates❤️Cubiertos ecologicos❤️Tarjeta personalizada ❤️Moños y cintas según tematica"},
-						{ nombre: "A34", img: "A034.jpg", precioActual: "$220.000", descrip:"♥️botella baile's♥️12 rosas y follaje♥️caja de madera♥️tarjeta personalizada♥️corazones o pin al gusto segun tematica♥️moños , cintas segun tematica♥️12 Ferrero Rocher"},
-						{ nombre: "A35", img: "A035.jpg", precioActual: "$230.000", descrip:"♥️ Caja de madera♥️Arco de globos♥️Globo burbuja marcado♥️tarjeta personalizada♥️Moños y cintas♥️Cubiertos ecológicos♥️Huevos rancheros♥️Mix de frutas♥️jugo  al gusto♥️Postre personal♥️Yogurt griego con cereales♥️Ramillete con 6 rosas y follaje♥️Media botella de vino gato negro"},
-						{ nombre: "B01", img: "B01.jpeg", precioActual: "$148.000", descrip:"♥️hermosa caja doble fondo negra♥️tarjeta personalizada♥️Cubiertos ecológicos♥️moños y cintas♥️20 Rosas eternas liston satinado ♥️7 unid ferrero rocher"},
-            
+						{ nombre: "New1", img: "New1.jpeg", categorias:["especialH"],descuento: "", precioActual: "$73.000", precioAnterior: "", descrip:"Cerveza coronita o coca cola en lata decorada según temática ❤️ chocolates variados (ferrero rocher, mani, gomas, gol, chocolatinas, etc) ❤️ Pines y rosetones ❤️ globo burbuja segun tematica ❤️tarjeta personalizada ❤️ moños y cintas según temática"},
+                        { nombre: "New4", img: "New4.jpeg", categorias:["especialH"],descuento: "", precioActual: "$78.000", precioAnterior: "", descrip:" Linda caja exagonal de madera decorada según temática ❤️ Sandwich extra especial o 3 empanadas❤️ Parfait natural con yogurt griego ❤️ Cerveza coronita ❤️ Waffle saludable ❤️ Galleta Chokis clásica ❤️ Chocolates ❤️Cubiertos ecológicos ❤️ Aderezos ❤️ Letreros,moños,cintas y tarjeta según tematica"},
+                        { nombre: "New3", img: "New3.jpeg", categorias:["especialH"],descuento: "", precioActual: "$83.000", precioAnterior: "", descrip:"❤️Linda caja de madera en color negro decorada según temática ❤️ 3  deliciosas empanadas de carne ❤️ Cerveza coronita ❤️ jugo de naranja natural o te Hatsu ❤️ Mix de frutas fresca ❤️ yogurt griego y cereal ❤️ 3 unid ferreros Rocher ❤️ Cubiertos ecológicos ❤️ Aderezos ❤️ Tarjeta y moños personalizados según ocacion "},
+                        { nombre: "New2", img: "New2.jpeg", categorias:["especialH"],descuento: "", precioActual: "$105.000", precioAnterior: "", descrip:"Detalle con lindo globo marcado según temática ❤️ 2 cervezas Coronitas ❤️ Mug personalizado ❤️ Recipiente de vidrio con frutos secos ❤️ Chocolates, ferrero rocher, mani, gomas, y galletas varias ❤️ Caja base decorada según temática ❤️ Tarjeta personalizada ❤️ cintas y moños según temática"},
+                        
 					];
 					function mostrarProductos(categoria) {
 						var catalogoo = document.getElementById("catalogoo");
@@ -286,10 +301,10 @@
 				<script>
 					
 					var productos = [
-						{ nombre: "A01", img: "A01.jpeg", precioActual: "$38.000", descrip:"♥️ MINI DONAS CUBIERTAS CON CHOCOLATE ♥️CAJA DE CARTÓN ♥️TEMÁTICA AL GUSTO ♥️MOÑO ♥️TARJETA PERSONALIZADA ♥️ADEREZOS"},
+						{ nombre: "A01", img: "A01M.jpg", precioActual: "$38.000", descrip:"♥️ MINI DONAS CUBIERTAS CON CHOCOLATE ♥️CAJA DE CARTÓN ♥️TEMÁTICA AL GUSTO ♥️MOÑO ♥️TARJETA PERSONALIZADA ♥️ADEREZOS"},
 						{ nombre: "A02", img: "A02.jpeg", precioActual: "$50.000", descrip:"♥️Waffle doble tipo torta♥️linda caja  marcada a mano♥️Cubiertos ecológicos♥️moño♥️Globo marcado y personalizado ♥️aderezos♥️chocolates variados"},
-						{ nombre: "A03", img: "A03.jpg", precioActual: "$50.000", descrip:"♥️ Saludable Parfait♥️Cubiertos Ecológicos♥️Tarjeta Personalizada♥️Globo Marcado Y Personalizado♥️Aderezos♥️Moño"},
-						{ nombre: "A04", img: "A04.jpeg", precioActual: "$55.000", descrip:"♥️ 8 fresas cubiertas con chocolate♥️linda Caja de cartón decorada♥️tarjeta personalizada♥️Temática al gusto♥️aderezos♥️moño y cintas"},
+						{ nombre: "A03", img: "A03M.jpg", precioActual: "$50.000", descrip:"♥️ Saludable Parfait♥️Cubiertos Ecológicos♥️Tarjeta Personalizada♥️Globo Marcado Y Personalizado♥️Aderezos♥️Moño"},
+						{ nombre: "A04", img: "A04M.jpeg", precioActual: "$55.000", descrip:"♥️ 8 fresas cubiertas con chocolate♥️linda Caja de cartón decorada♥️tarjeta personalizada♥️Temática al gusto♥️aderezos♥️moño y cintas"},
             
 					];
 					function mostrarProductos(categoria) {
