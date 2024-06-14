@@ -17,14 +17,73 @@ html {
 	box-sizing: border-box;
 }
 
+
+.carousel-container {
+      width: 80%;
+      margin: 0 auto;
+      overflow: hidden;
+      position: relative;
+    }
+    
+    .carousel-slide {
+      display: flex;
+      transition: transform 0.5s ease;
+    }
+    
+	.bannerPadre img {
+       max-width: 100%; /* Ajustar según sea necesario */
+		height: auto;
+		width: 100%; 
+    }
+
+    .carousel-item {
+      flex: 0 0 20%; /* Para que se muestren 5 elementos en la vista */
+      padding: 10px;
+      box-sizing: border-box;
+	  border-radius: 1%;
+	  background-color: rgba(255, 255, 255, 0.89);
+	  box-shadow: 0 0 5px rgba(76, 2, 72, 0.388);
+    }
+
+	.carousel-item t {
+		font-size: 1.5em; /* Ajusta el tamaño de la fuente si es necesario */
+	}
+
+    .carousel-item img {
+      max-width: 100%;
+      height: auto;
+	  border-radius: 100%;
+    }
+	.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgb(221, 2, 93);
+	border-radius: 100%;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .carousel-button-prev {
+    left: 10px;
+  }
+  .carousel-button-next {
+    right: 10px;
+  }
 /* ********************************** */
 /*             UTILIDADES             */
 /* ********************************** */
 .container {
-	max-width: 120rem;
+	max-width: 890rem;
 	margin: 0 auto;
 }
 
+.heading-11 {
+	text-align: center;
+	font-weight: 300;
+	font-size: 2rem;
+}
 .heading-1 {
 	text-align: center;
 	font-weight: 500;
@@ -70,12 +129,53 @@ html {
 
 
 @media only screen and (max-width: 600px) {
+
+	
+
+	.carousel-item t {
+		font-size: 1.5em; /* Ajusta el tamaño de la fuente si es necesario */
+	}
+
+	.carousel-container {
+      width: 100%;
+      margin: 1px;
+      overflow: hidden;
+      position: relative;
+	  
+    }
+    
+    .carousel-slide {
+      display: flex;
+      transition: transform 0.5s ease;
+    }
+    
+    .carousel-item {
+      flex: 0 0 20%; /* Para que se muestren 5 elementos en la vista */
+      padding: 10px;
+      box-sizing: border-box;
+    }
+
+    .carousel-item img {
+      max-width: 200%;
+      height: auto;
+	  width: 90px;
+	  border-radius: 100%;
+    }
+
+	.carousel-item h4 {
+		font-size: 1.4em; /* Ajusta el tamaño de la fuente si es necesario */
+	}
+	.carousel-item h3 {
+		font-size: 20em; /* Ajusta el tamaño de la fuente si es necesario */
+	}
+
+
     .whatsapp-container {
-        top: 50%;
+        top: 30%;
         left: 1%;
     }
     .whatsapp-container img {
-    max-width: 50%; /* Ajustar según sea necesario */
+    max-width: 65; /* Ajustar según sea necesario */
     height: auto;
     width: auto\9; /* IE8 */
     max-height: 200px;
@@ -193,6 +293,7 @@ html {
 .menu {
 	display: flex;
 	gap: 2rem;
+	padding: 1rem;
 }
 
 .menu li {
@@ -201,11 +302,12 @@ html {
 
 .menu a {
 	text-decoration: none;
-	font-size: 1.3rem;
+	font-size: 1.5rem;
 	color: var(--dark-color);
 	font-weight: 600;
 	text-transform: uppercase;
 	position: relative;
+	font-weight: 1000;
 }
 
 .menu a::after {
@@ -482,12 +584,14 @@ html {
 .container-productss {
 	display: flex;
 	margin-left: 5%;
+	max-width: 100%;
 	grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
 	gap: 1rem;
 }
 .container-products {
 	display: grid;
 	margin-left: 1px;
+	max-width: 100%;
 	grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
 	gap: 1rem;
 }
@@ -973,6 +1077,43 @@ html {
 		font-size: 55%;
 	}
 
+	.carousel-item t {
+		font-size: 1.5em; /* Ajusta el tamaño de la fuente si es necesario */
+	}
+
+	.carousel-container {
+      width: 100%;
+      margin: 1px;
+      overflow: hidden;
+      position: relative;
+	  
+    }
+    
+    .carousel-slide {
+      display: flex;
+      transition: transform 0.5s ease;
+    }
+    
+    .carousel-item {
+      flex: 0 0 20%; /* Para que se muestren 5 elementos en la vista */
+      padding: 10px;
+      box-sizing: border-box;
+    }
+
+    .carousel-item img {
+      max-width: 200%;
+      height: auto;
+	  width: 90px;
+	  border-radius: 100%;
+    }
+
+	.carousel-item h4 {
+		font-size: 1.4em; /* Ajusta el tamaño de la fuente si es necesario */
+	}
+	.carousel-item h3 {
+		font-size: 20em; /* Ajusta el tamaño de la fuente si es necesario */
+	}
+
 	.hero {
 		padding: 2rem;
 	}
@@ -1075,11 +1216,154 @@ html {
 		gap: 1.5rem;
 	}
 }
+@media (max-width: 768px) {
+	html {
+		font-size: 55%;
+	}
 
+	.carousel-item t {
+		font-size: 1.5em; /* Ajusta el tamaño de la fuente si es necesario */
+	}
+
+	.carousel-container {
+      width: 100%;
+      margin: 1px;
+      overflow: hidden;
+      position: relative;
+	  
+    }
+    
+    .carousel-slide {
+      display: flex;
+      transition: transform 0.5s ease;
+    }
+    
+    .carousel-item {
+      flex: 0 0 20%; /* Para que se muestren 5 elementos en la vista */
+      padding: 10px;
+      box-sizing: border-box;
+    }
+
+    .carousel-item img {
+      max-width: 200%;
+      height: auto;
+	  width: 90px;
+	  border-radius: 100%;
+    }
+
+	.carousel-item h4 {
+		font-size: 1.4em; /* Ajusta el tamaño de la fuente si es necesario */
+	}
+	.carousel-item h3 {
+		font-size: 20em; /* Ajusta el tamaño de la fuente si es necesario */
+	}
+
+	.hero {
+		padding: 2rem;
+	}
+
+	.customer-support {
+		display: none;
+	}
+
+	.content-shopping-cart {
+		display: none;
+	}
+
+	.navbar {
+		padding: 1rem 2rem;
+	}
+
+	.navbar .fa-bars {
+		display: block;
+		color: #fff;
+		font-size: 3rem;
+	}
+
+	.menu {
+		display: 100%;
+	}
+
+	.content-banner {
+		max-width: 50rem;
+		margin: 0 auto;
+		padding: 25rem 0;
+	}
+
+	.container-features {
+		grid-template-columns: repeat(2, 1fr);
+		padding: 3rem 2rem;
+	}
+
+	.card-feature {
+		padding: 2rem;
+	}
+
+	.heading-1 {
+		font-size: 2.4rem;
+	}
+
+	.card-category {
+		height: 12rem;
+	}
+
+	.card-category p {
+		font-size: 2rem;
+		text-align: center;
+		line-height: 1;
+	}
+
+	.card-category span {
+		font-size: 1.4rem;
+	}
+
+	.container-options {
+		align-items: center;
+	}
+
+	.container-options span {
+		text-align: center;
+		padding: 1rem 2rem;
+	}
+
+	.container-productss {
+		width: 100%;
+		margin-left: 20%;
+		grid-template-columns: repeat(auto-fit, minmax(200%, 1fr));
+		gap: 1fr;
+	}
+	.container-products {
+		width: 100%;
+		margin-left: 1px;
+		grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+		gap: 1fr;
+	}
+
+	.gallery {
+		grid-template-rows: repeat(2, 15rem);
+	}
+
+	.container-blogs {
+		overflow: hidden;
+		grid-template-columns: 1fr 1fr;
+		margin-right: 10%;
+	}
+
+	.menu-footer {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.copyright {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 1.5rem;
+	}
+}
 /* ********************************** */
 /*       MEDIA QUERIES -- 468px       */
 /* ********************************** */
-@media (max-width: 468px) {
+@media (max-width: 1020px) {
 	html {
 		font-size: 42.5%;
 	}
@@ -1087,6 +1371,43 @@ html {
 	.content-banner {
 		max-width: 50rem;
 		padding: 22rem 0;
+	}
+
+	.carousel-item t {
+		font-size: 1.5em; /* Ajusta el tamaño de la fuente si es necesario */
+	}
+
+	.carousel-container {
+      width: 100%;
+      margin: 1px;
+      overflow: hidden;
+      position: relative;
+	  
+    }
+    
+    .carousel-slide {
+      display: flex;
+      transition: transform 0.5s ease;
+    }
+    
+    .carousel-item {
+      flex: 0 0 20%; /* Para que se muestren 5 elementos en la vista */
+      padding: 10px;
+      box-sizing: border-box;
+    }
+
+    .carousel-item img {
+      max-width: 200%;
+      height: auto;
+	  width: 110px;
+	  border-radius: 100%;
+    }
+
+	.carousel-item h4 {
+		font-size: 1.4em; /* Ajusta el tamaño de la fuente si es necesario */
+	}
+	.carousel-item h3 {
+		font-size: 20em; /* Ajusta el tamaño de la fuente si es necesario */
 	}
 
 	.heading-1 {
