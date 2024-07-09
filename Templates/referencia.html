@@ -69,61 +69,7 @@
         </div>
         
     </header>
-    <!--inicio catalogo padre-->
-    <h1 class="heading-11">apartado de:</h1>
-        <h1 class="heading-1">-Catalogo mes del padre-</h1>
-        <br>
-    <section class="container specials">
-					<div class="container-products" id="catalogoo">
-						<!-- Aquí se cargarán los productos -->
-					</div>
-				</section>
-				<script>
-					
-					var productos = [
-				        { nombre: "New1", img: "New1.jpeg", categorias:["especialH"],descuento: "", precioActual: "$73.000", precioAnterior: "", descrip:"Cerveza coronita o coca cola en lata decorada según temática ❤️ chocolates variados (ferrero rocher, mani, gomas, gol, chocolatinas, etc) ❤️ Pines y rosetones ❤️ globo burbuja segun tematica ❤️tarjeta personalizada ❤️ moños y cintas según temática"},
-                        { nombre: "New4", img: "New4.jpeg", categorias:["especialH"],descuento: "", precioActual: "$78.000", precioAnterior: "", descrip:" Linda caja exagonal de madera decorada según temática ❤️ Sandwich extra especial o 3 empanadas❤️ Parfait natural con yogurt griego ❤️ Cerveza coronita ❤️ Waffle saludable ❤️ Galleta Chokis clásica ❤️ Chocolates ❤️Cubiertos ecológicos ❤️ Aderezos ❤️ Letreros,moños,cintas y tarjeta según tematica"},
-                        { nombre: "New3", img: "New3.jpeg", categorias:["especialH"],descuento: "", precioActual: "$83.000", precioAnterior: "", descrip:"❤️Linda caja de madera en color negro decorada según temática ❤️ 3  deliciosas empanadas de carne ❤️ Cerveza coronita ❤️ jugo de naranja natural o te Hatsu ❤️ Mix de frutas fresca ❤️ yogurt griego y cereal ❤️ 3 unid ferreros Rocher ❤️ Cubiertos ecológicos ❤️ Aderezos ❤️ Tarjeta y moños personalizados según ocacion "},
-                        { nombre: "New2", img: "New2.jpeg", categorias:["especialH"],descuento: "", precioActual: "$105.000", precioAnterior: "", descrip:"Detalle con lindo globo marcado según temática ❤️ 2 cervezas Coronitas ❤️ Mug personalizado ❤️ Recipiente de vidrio con frutos secos ❤️ Chocolates, ferrero rocher, mani, gomas, y galletas varias ❤️ Caja base decorada según temática ❤️ Tarjeta personalizada ❤️ cintas y moños según temática"},
-                        
-					];
-					function mostrarProductos(categoria) {
-						var catalogo = document.getElementById("catalogoo");
-						catalogo.innerHTML = "";
-						productos.forEach(function(producto) {
-							var productoHTML = `
-								<div class="container-productss">
-									<div class="card-product">
-										<div class="container-img">
-											<img src="../img/Catalogo/${producto.img}" alt="${producto.nombre}" />
-											${producto.descuento ? `<span class="discount">-${producto.descuento}</span>` : ''}
-											<div class="button-group">
-												<span><i class="fa-regular fa-heart"></i></span>
-												<br></div>
-												    <div class="button-groupp" onclick="mostrarSweetAlert('${producto.nombre}')">
-											                                    <span> <i class="fa-regular fa-eye"> ver Descripcion</i></span>
-											                                    <br>
-											                                </div></div>
-										<div class="content-card-product">
-											<div class="stars">
-												${Array.from({ length: producto.estrellas }, () => `<i class="fas fa-star"></i>`).join('')}
-												${Array.from({ length: 5 - producto.estrellas }, () => `<i class="far fa-star"></i>`).join('')}
-											</div>
-											<h3>Referencia ${producto.nombre}</h3>
-											<span class="add-cart"><a href="https://wa.me/+573228766485?text=Revise%20la%20pagina%20y%20deseo%20agendar%20la%20Ref%20${producto.nombre}%20del%20mes%20del%20padre" class="btn-2" >
-												<i class="fa-solid fa-basket-shopping"></i></a> </span>
-											<p class="price">${producto.precioActual} ${producto.precioAnterior ? `<span>${producto.precioAnterior}</span>` : ''}</p>
-										
-											</div>
-									</div></div>
-								`;
-								catalogoo.innerHTML += productoHTML;
-							});	}
-					
-					mostrarProductos("destacado");
-				</script>
-
-    <!--fin catalogo padre-->
+    
     <h1 class="heading-11">apartado del:</h1>
         <h1 class="heading-1">-Catalogo filtrado-</h1>
         <br>
@@ -230,7 +176,11 @@
                 { nombre: "RMA", img: "RMá.jpeg", categorias:["especial","especialH","flores","peluche"],descuento: "", precioActual: "$60.000", precioAnterior: "", descrip:"❤️peluche❤️ramillete 3 rosas naturales o eternas y follaje ❤️ tarjeta personalizada ❤️ moños y cintas ❤️ emvolura"},
                 { nombre: "SPM", img: "SPM.jpg", categorias:["especialN","desayuno","peluche"], descuento: "", precioActual: "$198.000", precioAnterior: "", descrip:"Globo numero️ ❤ peluche spiderman ❤️ ensalada de frutas o huevos ranchero ❤️ bebida al gusto ❤️ gelatina de colores ❤️dulces variado ❤️ globo personalizado ❤️ cubiertos ecologicos ❤️ tarjeta personalizada ❤️ aderezos ❤️ moños y cintas ❤️ tematica al gusto"},
 
-
+{ nombre: "New1", img: "New1.jpeg", categorias:["especialH"],descuento: "", precioActual: "$73.000", precioAnterior: "", descrip:"Cerveza coronita o coca cola en lata decorada según temática ❤️ chocolates variados (ferrero rocher, mani, gomas, gol, chocolatinas, etc) ❤️ Pines y rosetones ❤️ globo burbuja segun tematica ❤️tarjeta personalizada ❤️ moños y cintas según temática"},
+                        { nombre: "New4", img: "New4.jpeg", categorias:["especialH"],descuento: "", precioActual: "$78.000", precioAnterior: "", descrip:" Linda caja exagonal de madera decorada según temática ❤️ Sandwich extra especial o 3 empanadas❤️ Parfait natural con yogurt griego ❤️ Cerveza coronita ❤️ Waffle saludable ❤️ Galleta Chokis clásica ❤️ Chocolates ❤️Cubiertos ecológicos ❤️ Aderezos ❤️ Letreros,moños,cintas y tarjeta según tematica"},
+                        { nombre: "New3", img: "New3.jpeg", categorias:["especialH"],descuento: "", precioActual: "$83.000", precioAnterior: "", descrip:"❤️Linda caja de madera en color negro decorada según temática ❤️ 3  deliciosas empanadas de carne ❤️ Cerveza coronita ❤️ jugo de naranja natural o te Hatsu ❤️ Mix de frutas fresca ❤️ yogurt griego y cereal ❤️ 3 unid ferreros Rocher ❤️ Cubiertos ecológicos ❤️ Aderezos ❤️ Tarjeta y moños personalizados según ocacion "},
+                        { nombre: "New2", img: "New2.jpeg", categorias:["especialH"],descuento: "", precioActual: "$105.000", precioAnterior: "", descrip:"Detalle con lindo globo marcado según temática ❤️ 2 cervezas Coronitas ❤️ Mug personalizado ❤️ Recipiente de vidrio con frutos secos ❤️ Chocolates, ferrero rocher, mani, gomas, y galletas varias ❤️ Caja base decorada según temática ❤️ Tarjeta personalizada ❤️ cintas y moños según temática"},
+                        
                  
 
         ];
