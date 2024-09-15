@@ -780,6 +780,23 @@ html {
 	grid-row: 1/3;
 }
 
+
+.galleryAmarill {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(2, 20%);
+	gap: 0rem;
+}
+
+
+
+.galleryAmarill img {
+	max-width: 100%; /* Ajustar según sea necesario */
+    height: auto;
+    width: auto\9; /* IE8 */
+	object-fit: cover;
+}
+
 /* ********************************** */
 /*              SPECIALS              */
 /* ********************************** */
