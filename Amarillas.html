@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Dulce Amor _ Detalles Yopal Casanare</title>
+		<link rel="stylesheet" href="styles.css" />
+		
+	</head>
+	<body> 
+  	<header>
+	<div data-include="present.html"></div>
+
+		</header>
+		<main class="main-content">
+			<h1 class="heading-11">apartado de:</h1>
+			<h1 class="heading-1">21 de septiembre</h1>
+			<h1 class="heading-11">FLORES AMARILLAS</h1>
+
+			
+				
+			
+
+			<section class="galleryAmarill">
+				<img
+					src="img/2.png"
+					alt="GalleryAmarill Img1"
+					class="galleryAmarill-img-3"
+				/><img
+					src="img/1.png"
+					alt="GalleryAmarill Img2"
+					class="galleryAmarill-img-3"
+				/><img
+					src="img/4.png"
+					alt="GalleryAmarill Img4"
+					class="galleryAmarill-img-3"
+				/>
+				<img
+					src="img/5.png"
+					alt="GalleryAmarill Img4"
+					class="galleryAmarill-img-3"
+				/>
+			</section>
+
+			<section class="container top-products">
+				<h1 class="heading-1">Referencias:</h1>
+				<section class="container specials">
+					<div class="container-products" id="catalogo">
+						<!-- Aquí se cargarán los productos -->
+					</div>
+				</section>
+				<script>
+					
+					var productos = [
+			        { nombre: "AAAR1", img: "AAAR1.jpeg", precioActual: "$25.000", descrip:"❤️ Solitario de rosa eterna en liston satinado según temática❤️Acompañada con 3 chocolates ferrero Rocher ❤️ Cintas ❤️ tarjeta ,caja , según tematica. "},
+                    { nombre: "AAS1", img: "AAS1.jpeg",  precioActual: "$28.000", descrip:"linda decoración en vaso de 14 onz  ❤️ opciones: (fresas con crema, parfait, fresas con chocolate o minidonas) ❤️ El amor es Dulce ( 3 topings a escoger)  ❤️ cintas y decoración  ❤️ tarjeta según temática  ❤️ cubiertos ecológicos."},
+					{ nombre: "A03A", img: "A03A.jpg", precioActual: "$45.000", descrip:"♥️ Saludable Parfait♥️Cubiertos Ecológicos♥️Tarjeta Personalizada♥️Globo Marcado Y Personalizado♥️Aderezos♥️Moño"},
+                    { nombre: "Rl4", img: "Rl4.jpg", precioActual: "$48.000", descrip:"♥️ lindo arreglo florar con 1 girasol natural o eterno en liston satinado, follaje variado, moño y tarjeta personalizada"},
+      				{ nombre: "AAS2", img: "AAS2.jpeg",  precioActual: "$50.000", descrip:"Linda caja artesanal decorada según temática ❤️ Duo perfecto ❤️ Vaso 14 onz opciones (fresas con crema, parfait, fresas con chocolate o minidonas) ❤️ Rosa eterna en liston satinado o rosa natural  individual según ocasión acompañada por chocolates varios ❤️ Moños y cintas ❤️ tarjeta según temática ❤️ Cubiertos ecológicos. "},            
+       				{ nombre: "Rl3", img: "R13.jpeg", precioActual: "$55.000", descrip:"♥️ lindo arreglo florar con 1 girasol eterno en liston satinado, 3 unid ferreros rocher, moño y tarjeta personalizada"},
+                    { nombre: "Rl3H", img: "R13H.jpg", precioActual: "$55.000", descrip:"♥️ lindo arreglo florar con 1 girasol eterno en liston satinado, 3 unid ferreros rocher, moño y tarjeta personalizada"},
+                    { nombre: "AARl9", img: "AARl9.jpg", precioActual: "$60.000", descrip:"❤️ Ramo eterno con un girasol en liston satinado❤️3 unidades de chocolates ferreros❤️Lindo globo marcado según ocasión❤️Cintas, tarjeta y moños según ocasión."}, 
+                    { nombre: "A09A", img: "A09A.jpg", precioActual: "$68.000", descrip:"♥️ Sándwich de la casa♥️Mix de frutas♥️bebida al gusto decorada segun tematica♥️Cubiertos ecológicos♥️Aderezos♥️Tarjeta personalizada♥️Moños y cintas segun tematica♥️linda Caja de cartón decorada y personalizada segun tematica♥️Chocolates variados"},
+                    { nombre: "Rl5", img: "Rl5.jpg", precioActual: "$70.000", descrip:"♥️ lindo arreglo florar con 2 girasol natural o eterno en liston satinado, follaje variado, globo marcado, moño y tarjeta personalizada"},
+                    { nombre: "AAARr", img: "AAARr.jpeg", precioActual: "$78.000", descrip:"❤️ linda caja en forma de corazón ,decorada según temática ❤️6 rosas eternas en liston satinado ❤️3 unidades de chocolates ferreros Rocher ❤️ chocolates en burbujas ❤️tarjeta ,cintas y decoración según temática."},
+    	            { nombre: "AARRr", img: "AARRr.jpeg", precioActual: "$78.000", descrip:"❤️ linda caja en forma de corazón ,decorada según temática ❤️6 rosas eternas en liston satinado ❤️3 unidades de chocolates ferreros Rocher ❤️ chocolates en burbujas ❤️tarjeta ,cintas y decoración según temática."},
+                    { nombre: "AMR7", img: "AMR7.jpg", precioActual: "$78.000", descrip:"❤️ Ramillete de 3 girasoles y follaje ❤️Acompañado con un vaso de minidonas decoradas en chocolate según ocasión."},
+                    { nombre: "MM1", img: "MM1.jpg", precioActual: "$88.000", descrip:"❤️Mug según ocasión ❤️ 3 rosas y follaje ❤️ 3 Ferreros Rocher ❤️ 8 minidonas o fresas con chocolate ❤️ letrero segun ocasion❤️ globo según ocasión ❤️ decoración en general ❤️ mariposas y moños"},
+                    { nombre: "Rl6", img: "Rl6.jpg", precioActual: "$88.000", descrip:"♥️ lindo arreglo florar con 3 girasol natural o eterno en liston satinado, follaje variado, globo marcado, moño y tarjeta personalizada"},
+                    { nombre: "AAS4", img: "AAS4.jpeg",  precioActual: "$92.000", descrip:"linda caja empaque baúl con acetato❤️ sandwich croissant de pollo, jamon, queso, verduras❤️ bebida al gusto❤️ waffle ❤️ porcion de fresas❤️ mix de yogurth griego, cereal, fruta❤️ cubiertos ecologicos❤️aderezos❤️ chocolates varios❤️ tarjeta personalizada❤️ moños y cintas "},
+                    { nombre: "AAA20", img: "AAA20.jpg", precioActual: "$95.000", descrip:"♥️lindo cono decorado y  personalizado♥️mym, galletas, gomas, snikers♥️chocolatinas♥️ferrero rocher♥️tarjeta marcada segun tematica♥️2 rosas y follaje♥️moños y cintas segun tematica"},
+                    { nombre: "A24", img: "A024.jpg", precioActual: "$98.000", descrip:"♥️ ensalada de frutas natural♥️yogurt griego, cereales♥️Ferrero rocher♥️cubiertos ecológicos♥️moño♥️linda caja marcada segun tematica♥️aderezos♥️ramillete 1 girasol, 2 rosas y follaje"},
+                    { nombre: "CFR", img: "CFR.jpg", precioActual: "$120.000", descrip:"❤️ Linda canasta decorada según ocasión❤️ Contiene frutas varias  naturales ❤️Arreglo floral con rosas y follaje❤️Cintas y tarjeta ❤️ decoración según ocasión."},
+                    { nombre: "A27", img: "A027.jpg", precioActual: "$128.000", descrip:"♥️ lindo arreglo florar con 3 girasoles y 3 rosas♥️caja de carton decorada que contiene: fresas con chocolate o  mini donas♥️peluche pequeño♥️moños y cintas segun tematica"},
+          			{ nombre: "AA002", img: "AA002.jpg", precioActual: "$133.000", descrip:"♥️ lindo arreglo florar con 1 girasol eterno en liston satinado, 3 unid ferreros rocher, moño y tarjeta personalizada❤️linda Caja tematica flork♥️tarjeta marcada y personalizada♥️chocolates variados♥️gomas♥️linda rosa eterna en liston satinada♥️decoracion , moños, cintas segun tematica♥️galletas"},
+                    { nombre: "AAB01", img: "AAB01.jpeg", precioActual: "$148.000", descrip:"♥️hermosa caja doble fondo negra♥️tarjeta personalizada♥️Cubiertos ecológicos♥️moños y cintas♥️20 Rosas eternas liston satinado ♥️7 unid ferrero rocher"},
+                    { nombre: "AA31", img: "A31.jpg", precioActual: "$168.000", descrip:"♥️12 Ferreros Rocher♥️15 rosas rojas naturales y follaje♥️linda Caja negra decorada♥️Cintas y moños♥️Tarjeta personalizada"},
+                    { nombre: "Rl8", img: "Rl8.jpg", precioActual: "$180.000", descrip:"♥️ lindo arreglo florar con 12 rosas y 3 girasoles natural o eternos en liston satinado, follaje variado, moño y tarjeta personalizada"},
+                    { nombre: "A31M", img: "A31M.jpg", precioActual: "$193.000", descrip:"♥️peluche oso ♥️️12 Ferreros Rocher♥️15 rosas rojas naturales y follaje♥️linda Caja negra decorada♥️Cintas y moños♥️Tarjeta personalizada"},
+                    { nombre: "A33", img: "A033.jpg", precioActual: "$200.000", descrip:"♥️ lindo arreglo floral♥️panqueques con fruta♥️bebida al gusto♥️postre  personal♥️lindo globo burbuja decorado segun tematica♥️yogurt griego y cereales♥️huevos rancheros♥️chocolates - dulces variados♥️tarjeta marcada ypersonalizada segun tematica♥️cubiertos ecológicos ♥️tarjeta marcada ypersonalizada segun tematica"},
+					{ nombre: "AAA34", img: "AAA34.jpg", precioActual: "$220.000", descrip:"♥️botella baile's♥️12 rosas y follaje♥️caja de madera♥️tarjeta personalizada♥️corazones o pin al gusto segun tematica♥️moños , cintas segun tematica♥️12 Ferrero Rocher"},
+                   
+
+
+					];
+					function mostrarProductos(categoria) {
+						var catalogo = document.getElementById("catalogo");
+						catalogo.innerHTML = "";
+						productos.forEach(function(producto) {
+							var productoHTML = `
+								<div class="container-productss">
+									<div class="card-product">
+										<div class="container-img">
+											<img src="img/Catalogo/${producto.img}" alt="${producto.nombre}" />
+											${producto.descuento ? `<span class="discount">-${producto.descuento}</span>` : ''}
+											<div class="button-group">
+												<span><i class="fa-regular fa-heart"></i></span>
+												<br></div>
+												    <div class="button-groupp" onclick="mostrarSweetAlert('${producto.nombre}')">
+											                                    <span> <i class="fa-regular fa-eye"> ver Descripcion</i></span>
+											                                    <br>
+											                                </div></div>
+										<div class="content-card-product">
+											<div class="stars">
+												${Array.from({ length: producto.estrellas }, () => `<i class="fas fa-star"></i>`).join('')}
+												${Array.from({ length: 5 - producto.estrellas }, () => `<i class="far fa-star"></i>`).join('')}
+											</div>
+											<h3>Referencia ${producto.nombre}</h3>
+											<span class="add-cart"><a href="https://wa.me/+573134342325?text=Revise%20la%20pagina%20y%20deseo%20agendar%20la%20Ref%20${producto.nombre}" class="btn-2" >
+												<i class="fa-solid fa-basket-shopping"></i></a> </span>
+											<p class="price">${producto.precioActual} ${producto.precioAnterior ? `<span>${producto.precioAnterior}</span>` : ''}</p>
+										
+											</div>
+									</div></div>
+								`;
+								catalogo.innerHTML += productoHTML;
+							});	}
+					
+					mostrarProductos("destacado");
+				</script>
+			</section>
+			
+			<section class="container top-categories">
+				<h1 class="heading-1">Mejores Categorías</h1>
+				<div class="container-categories">
+					<div class="card-category category-celebracion">
+						<p>Detalles Para Mujer</p>
+						<span><a href=" referencia.html?variable=especial" >Ver más</a></span>
+					</div>
+					<div class="card-category category-detalle">
+						<p>Desayunos Para Niñ@s</p>
+						<span><a href=" referencia.html?variable=especialN" >Ver más</a></span>
+					</div>
+					<div class="card-category category-desayuno">
+						<p>Detalles Para Hombre</p>
+						<span><a href=" referencia.html?variable=especialH" >Ver más</a></span>
+					</div>
+					
+				</div>
+			</section>
+
+
+		</main>
+
+	<div data-include="Fin.html"></div>
+
+		</footer>
+
+		<script
+			src="https://kit.fontawesome.com/81581fb069.js"
+			crossorigin="anonymous"
+		></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <!-- Tu archivo de JavaScript personalizado -->
+        <script src="script.js"></script>
+	</body>
+</html>
