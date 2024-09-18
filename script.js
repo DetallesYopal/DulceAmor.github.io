@@ -129,7 +129,8 @@ function mostrarSweetAlert(nombre) {
       { nombre: "Rl8", img: "Rl8.jpg", precioActual: "$180.000", descrip:"♥️ lindo arreglo florar con 12 rosas y 3 girasoles natural o eternos en liston satinado, follaje variado, moño y tarjeta personalizada"},
       { nombre: "RMA", img: "RMá.jpeg", precioActual: "$60.000", descrip:"❤️peluche❤️ramillete 3 rosas naturales o eternas y follaje ❤️ tarjeta personalizada ❤️ moños y cintas ❤️ emvolura"},
       { nombre: "SPM", img: "SPM.jpg", precioActual: "$198.000", descrip:"Globo numero️ ❤ peluche spiderman ❤️ ensalada de frutas o huevos ranchero ❤️ bebida al gusto ❤️ gelatina de colores ❤️dulces variado ❤️ globo personalizado ❤️ cubiertos ecologicos ❤️ tarjeta personalizada ❤️ aderezos ❤️ moños y cintas ❤️ tematica al gusto"},
-
+{ nombre: "AMR7N", img: "AMR7N.jpeg", precioActual: "$95.000", descrip:"Arreglo floral con 3 girasoles y (adicional según el cliente anexo arreglo con billetes)❤️Caja decorada según temática❤️Ensalada con fruta natural❤️Aderezos❤️Cubiertos ecológicos❤️Tarjeta, moños y cintas según temática❤️"},
+                    
     ];
 
   // Encontrar el producto correspondiente al nombre proporcionado
