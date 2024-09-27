@@ -20,7 +20,12 @@ async function includeHTML() {
 function mostrarSweetAlert(nombre) {
   
     var productos = [
-      { nombre: "A01H", img: "A01H.jpg", precioActual: "$43.000", descrip:"♥️ MINI DONAS CUBIERTAS CON CHOCOLATE ♥️CAJA DE CARTÓN ♥️TEMÁTICA AL GUSTO ♥️MOÑO ♥️TARJETA PERSONALIZADA ♥️ADEREZOS"},
+      { nombre: "HW1", img: "HW1.jpeg", precioActual: "$78.000", descrip:"❤️ Cerveza coronita decorada ❤️2 carros hot wheels ❤️ Dulces  varios ❤️ Tarjeta personalizada ❤️ cintas y decoración según temática"},
+{ nombre: "HW3", img: "HW3.jpeg", precioActual: "$78.000", descrip:"❤️ 3 carros hotwheels ❤️3 rosas eternas en liston satinado ❤️ Decoración según temática❤️Tarjeta según temática"},
+{ nombre: "HW2", img: "HW2.jpeg", precioActual: "$93.000", descrip:"❤️ coronita decorada ❤️ 3 carros hotwheels ❤️ Dulces  y gomas varios ❤️caja personalizada ❤️ Tarjeta y moños  según temática."},
+
+{ nombre: "HW4", img: "HW4.jpeg", precioActual: "$38.000", descrip:"❤️ Ramo en solitario hot Wheels ❤️ Rosa eterna en liston saltinado ❤️ Carro Hot wheels ❤️ Tarjeta según temática."},
+{ nombre: "A01H", img: "A01H.jpg", precioActual: "$43.000", descrip:"♥️ MINI DONAS CUBIERTAS CON CHOCOLATE ♥️CAJA DE CARTÓN ♥️TEMÁTICA AL GUSTO ♥️MOÑO ♥️TARJETA PERSONALIZADA ♥️ADEREZOS"},
       { nombre: "A01M", img: "A01M.jpg", precioActual: "$43.000", descrip:"♥️ MINI DONAS CUBIERTAS CON CHOCOLATE ♥️CAJA DE CARTÓN ♥️TEMÁTICA AL GUSTO ♥️MOÑO ♥️TARJETA PERSONALIZADA ♥️ADEREZOS"},
       { nombre: "A01N1", img: "A01N.jpg", precioActual: "$43.000", descrip:"♥️ MINI DONAS CUBIERTAS CON CHOCOLATE ♥️CAJA DE CARTÓN ♥️TEMÁTICA AL GUSTO ♥️MOÑO ♥️TARJETA PERSONALIZADA ♥️ADEREZOS"},
       { nombre: "A01N2", img: "A01N2.jpg", precioActual: "$43.000", descrip:"♥️ MINI DONAS CUBIERTAS CON CHOCOLATE ♥️CAJA DE CARTÓN ♥️TEMÁTICA AL GUSTO ♥️MOÑO ♥️TARJETA PERSONALIZADA ♥️ADEREZOS"},
