@@ -90,8 +90,9 @@
         const item = document.createElement('div');
         item.classList.add('carousel-item');
         item.innerHTML = `
-            
-            <img src=" img/Adicional/${image.nombre}.${image.img}" alt="${image.nombre}" />
+            <picture>
+            <img src=" img/Adicional/${image.nombre}.${image.img}" alt="${image.nombre}" loading="lazy" />
+            </picture> 
             <br>
             <div class="content-card-product">
                 <span class="add-cart">
@@ -101,7 +102,7 @@
                 <p class="price">${image.nombre}</p>
             </div>
             <t>1 ${image.des} <br> ♥️decoracion acorde al detalle general</t>
-                            
+                   
         `;
         carouselSlide.appendChild(item);
         });
