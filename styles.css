@@ -18,6 +18,36 @@ html {
 }
 
 
+/* Estilos para los botones personalizados en SweetAlert2 */
+.swal2-category-btn {
+    background-color: var(--primary-color); /* Cambia esto al color primario de tu página */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 100%; /* Para hacerlos del mismo tamaño */
+    max-width: 220px; /* Define el tamaño máximo para ajustar la fila */
+}
+
+.swal2-category-btn:hover {
+    background-color: var(--dark-color); /* Un tono más oscuro al pasar el mouse */
+    transform: translateY(-2px);
+}
+
+/* Asegura que los botones se alineen correctamente en SweetAlert2 */
+.swal2-html-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
 .carousel-container {
       width: 80%;
       margin: 0 auto;
