@@ -153,7 +153,9 @@
                                 <div class="card-product">
                                     <div class="container-img">
                                         <picture>
+					<div onclick="mostrarSweetAlert('${producto.Nmb}')">
                                         <img src="img/Catalogo/${producto.img}" alt="${producto.Nmb}" loading="lazy" />
+					</div>
                                         </picture>
                                         ${producto.descuento ? `<span class="discount">-${producto.descuento}</span>` : ''}
                                         <div class="button-group">
