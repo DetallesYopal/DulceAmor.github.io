@@ -179,7 +179,9 @@
 								<div class="container-productss">
 									<div class="card-product">
 										<div class="container-img">
+	  <div onclick="mostrarSweetAlert('${producto.Nmb}')">
 											<img src="img/Catalogo/${producto.img}" alt="${producto.nombre}" />
+	   </div>
 											${producto.descuento ? `<span class="discount">-${producto.descuento}</span>` : ''}
 											<div class="button-group">
 												<span><i class="fa-regular fa-heart"></i></span>
@@ -270,7 +272,9 @@
 								<div class="container-productss">
 									<div class="card-product">
 										<div class="container-img">
+	  <div onclick="mostrarSweetAlert('${producto.Nmb}')">
 											<img src="img/Catalogo/${producto.img}" alt="${producto.nombre}" />
+	   </div>
 											${producto.descuento ? `<span class="discount">-${producto.descuento}</span>` : ''}
 											<div class="button-group">
 												<span><i class="fa-regular fa-heart"></i></span>
