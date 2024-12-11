@@ -660,6 +660,7 @@ html {
 	z-index: 0.1px;
 	padding: 0.1px;
 
+	font-size: 1.4rem;
 	cursor: pointer;
 	display:flex;
 	align-items: center;
