@@ -20,9 +20,9 @@ async function includeHTML() {
 function mostrarSweetAlert(Nmb) {
   
     var productos = [
-{Nmb: "Nv11", img: "Nv1.jpeg", pA: "$135.000", descrip:"Detalle navideño❤️❤️❤️Linda caja de madera decorada con letreros según ocasión ❤️1 botella de vino tinto❤️1 frasco con frutos secos❤️1 Ferrero x3 unid ❤️1 esfera mediana con foto doble❤️1 esfera pequeña con un chocolate❤️Calendario personalizado con fechas especiales y 12 fotos de la pareja❤Moños ,cintas,tarjetas mensaje,decoraciones según ocasión"},
-{Nmb: "Nv22", img: "Nv2.jpeg", pA: "$95.000", descrip:"Linda caja navideña tipo sobre❤️❤️❤️1 botella vino tinto ❤️Frasco con frutos secos❤️Chocolates tipo burbuja ❤️Esfera navideña con rosa eterna❤️tarjeta personalizada"},
-{Nmb: "Nv33", img: "Nv3.jpeg", pA: "$110.000", descrip:"Caja navideña Duo❤️❤️❤️1 botella de vino tinto ❤️Compartimento  de: quesos, frutos secos, carnes embutidos curados, frutas frescas, Chocolates, Cherry❤️tarjeta personalizada"},
+{Nmb: "Nv1", img: "Nv11.jpeg", pA: "$135.000", descrip:"Detalle navideño❤️❤️❤️Linda caja de madera decorada con letreros según ocasión ❤️1 botella de vino tinto❤️1 frasco con frutos secos❤️1 Ferrero x3 unid ❤️1 esfera mediana con foto doble❤️1 esfera pequeña con un chocolate❤️Calendario personalizado con fechas especiales y 12 fotos de la pareja❤Moños ,cintas,tarjetas mensaje,decoraciones según ocasión"},
+{Nmb: "Nv2", img: "Nv22.jpeg", pA: "$95.000", descrip:"Linda caja navideña tipo sobre❤️❤️❤️1 botella vino tinto ❤️Frasco con frutos secos❤️Chocolates tipo burbuja ❤️Esfera navideña con rosa eterna❤️tarjeta personalizada"},
+{Nmb: "Nv3", img: "Nv33.jpeg", pA: "$110.000", descrip:"Caja navideña Duo❤️❤️❤️1 botella de vino tinto ❤️Compartimento  de: quesos, frutos secos, carnes embutidos curados, frutas frescas, Chocolates, Cherry❤️tarjeta personalizada"},
 { Nmb: "HW1", img: "HW1.jpeg", pA: "$78.000", descrip:"❤️ Cerveza coronita decorada ❤️2 carros hot wheels ❤️ Dulces  varios ❤️ Tarjeta personalizada ❤️ cintas y decoración según temática"},
 { Nmb: "HW3", img: "HW3.jpeg", pA: "$78.000", descrip:"❤️ 3 carros hotwheels ❤️3 rosas eternas en liston satinado ❤️ Decoración según temática❤️Tarjeta según temática"},
 { Nmb: "HW2", img: "HW02.jpeg", pA: "$93.000", descrip:"❤️ coronita decorada ❤️ 3 carros hotwheels ❤️ Dulces  y gomas varios ❤️caja personalizada ❤️ Tarjeta y moños  según temática."},
