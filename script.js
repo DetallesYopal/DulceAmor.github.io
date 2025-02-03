@@ -137,7 +137,7 @@ function mostrarSweetAlert(Nmb) {
 { Nmb: "PR1", img: "PR1.jpg", pA: "$108.000", descrip:"❤️Linda caja negra decorada según temática ❤️4 rosas negras con follaje ❤️ Un oso aproximadamente 18cm ❤️ 5 ferreros roches ❤️ Tarjeta y cintas según temática"},
 { Nmb: "RB1", img: "RB1.jpg", pA: "$98.000", descrip:"❤️balde de madera ❤️ 3 coronitas decoradas ❤️ dulces variados (chocolatinas, mani, gomas, ferrero rocher, gol, burbujet)❤️globo personalizado ❤️ moños y cintas ❤️ tematica al gusto ❤️ tarjeta personalizada"},
 { Nmb: "Rl1", img: "Rl1.jpg", pA: "$35.000", descrip:"♥️ lindo arreglo florar con 3 rosas eternas en liston satinado, follaje, moño y tarjeta personalizada"},
-{ Nmb: "Rl2", img: "Rl2.jpg", pA: "$28.000", descrip:"♥️ lindo arreglo florar con 2 rosas eternas en liston satinado, follaje, moño y tarjeta personalizada"},
+{ Nmb: "Rl2", img: "Rl2.jpg", pA: "$30.000", descrip:"♥️ lindo arreglo florar con 2 rosas eternas en liston satinado, follaje, moño y tarjeta personalizada"},
 { Nmb: "Rl3", img: "R13.jpeg", pA: "$55.000", descrip:"♥️ lindo arreglo florar con 1 girasol eterno en liston satinado, 3 unid ferreros rocher, moño y tarjeta personalizada"},
 { Nmb: "Rl3H", img: "R13H.jpg", pA: "$55.000", descrip:"♥️ lindo arreglo florar con 1 girasol eterno en liston satinado, 3 unid ferreros rocher, moño y tarjeta personalizada"},
 { Nmb: "Rl4", img: "Rl4.jpg", pA: "$48.000", descrip:"♥️ lindo arreglo florar con 1 girasol natural o eterno en liston satinado, follaje variado, moño y tarjeta personalizada"},        { Nmb: "Rl5", img: "Rl5.jpg", pA: "$70.000", descrip:"♥️ lindo arreglo florar con 2 girasol natural o eterno en liston satinado, follaje variado, globo marcado, moño y tarjeta personalizada"},
