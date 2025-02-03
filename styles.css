@@ -16,7 +16,14 @@ html {
 	padding: 0;
 	box-sizing: border-box;
 }
+.informm-container {
+	margin-left: 5%;
+	margin-right: 5%;
+}
 
+.informm-container img {
+    max-width: 100%; 
+}
 .collage {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
