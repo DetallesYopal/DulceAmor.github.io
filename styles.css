@@ -67,6 +67,19 @@ html {
     font-weight: bold;
 }
 
+.galleryy {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 5%);
+	gap: 0.5rem;
+	margin-bottom: 0rem;
+}
+
+.galleryy img {
+	max-width: 100%;
+	margin-top: 0rem;
+	object-fit: cover;
+}
 .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
       width: 60%;
