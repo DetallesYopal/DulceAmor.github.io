@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Catálogo de Productos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href=" styles.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+</head>
+<body>
+	<div data-include="present.html"></div>
+<br>
+    
+    <section class="container specials">
+        <h1 class="heading-1"></h1>
+        <div class="container-products" id="catalogo">
+            <!-- Aquí se cargarán los productos -->
+        </div>
+    </section>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+	
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var productos = [            
+{ Nmb: "A07", img: "A07.jpg", ctg:["","flor"],  pA: "$80.000"},
+{ Nmb: "A12", img: "A012.jpg", ctg:["","flor","fv"],  pA: "$78.000"},
+{ Nmb: "A13", img: "A013.jpg", ctg:["","flor","fmc"],  pA: "$78.000"},
+
+{ Nmb: "AA31", img: "A31.jpg", ctg:[""],  pA: "$168.000"},
+{ Nmb: "A20", img: "A020.jpeg", ctg:[""],  pA: "$95.000"},
+{ Nmb: "A14H", img: "A14H.jpg", ctg:["","flor","Di"],  pA: "$78.000"},
+{ Nmb: "A21", img: "A021.jpg", ctg:["","flor"],  pA: "$98.000"},
+{ Nmb: "A24", img: "A024.jpg", ctg:["","flor","Ds"],  pA: "$98.000"},
+{ Nmb: "A27", img: "A027.jpg", ctg:["","flor","fmc","Di"],  pA: "$128.000"},
+{ Nmb: "A28H", img: "A028.jpg", ctg:["","flor","Ds"],  pA: "$155.000"},
+{ Nmb: "A29", img: "A029.jpg", ctg:["","flor"],  pA: "$165.000"},
+{ Nmb: "A30", img: "A030.jpg", ctg:["","flor","fmc","fv"],  pA: "$168.000"},
+{ Nmb: "A31", img: "A031.jpg", ctg:["","flor"],  pA: "$168.000"},
+{ Nmb: "A31M", img: "A31M.jpg",  ctg:["","flor","Di"], pA: "$193.000"},        
+{ Nmb: "A32", img: "A032.jpg", ctg:["","flor","Ds"],  pA: "$198.000"},
+{ Nmb: "A33", img: "A033.jpg", ctg:["","flor","Ds","Di"],  pA: "$200.000"},
+{ Nmb: "A34", img: "A034.jpg", ctg:["","flor"],  pA: "$220.000"},
+{ Nmb: "A35M", img: "A035.jpg", ctg:["","flor","Ds"],  pA: "$230.000"},
+{ Nmb: "A40", img: "A40.jpg", ctg:["","flor"],  pA: "$295.000"},
+{ Nmb: "AA002", img: "AA002.jpg", ctg:["","flor","Di"],  pA: "$133.000"},
+{ Nmb: "Aa28M", img: "A028A.jpg", ctg:["","flor","Ds"],  pA: "$175.000"},
+{ Nmb: "AAA20", img: "AAA20.jpg", ctg:["","flor"],  pA: "$95.000"},
+{ Nmb: "AAA34", img: "AAA34.jpg", ctg:["","flor"],  pA: "$220.000"},
+{ Nmb: "AAAR1", img: "AAAR1.jpeg", ctg:["","flor"],  pA: "$25.000"},
+{ Nmb: "AAARr", img: "AAARr.jpeg", ctg:["","flor","fmc"],  pA: "$78.000"},
+{ Nmb: "AARl9", img: "AARl9.jpg", ctg:["","flor"],  pA: "$65.000"},
+{ Nmb: "AARRr", img: "AARRr.jpeg", ctg:["","flor"],  pA: "$78.000"},
+
+{ Nmb: "B02a", img: "B02a.jpg", ctg:["","flor","fv"],  pA: "$78.000"},
+{ Nmb: "AAR2", img: "AAR2.jpeg", ctg:["","flor"],  pA: "$88.000"},
+{ Nmb: "AMR7", img: "AMR7.jpg", ctg:["","flor","fmc"],  pA: "$78.000"},
+{ Nmb: "AMR7N", img: "AMR7N.jpeg",  ctg:["","flor","Ds"], pA: "$95.000"},
+{ Nmb: "B01", img: "B01.jpeg", ctg:["","flor"],  pA: "$148.000"},
+{ Nmb: "B02", img: "B02.jpg", ctg:["","flor","fv"],  pA: "$78.000"},
+{ Nmb: "B02H", img: "B02H.jpg", ctg:["","flor","fv"],  pA: "$78.000"},
+{ Nmb: "B06", img: "B06.jpeg", ctg:["","flor","fmc","Di"],  pA: "$180.000"},
+{ Nmb: "DE1", img: "DE1.jpg", ctg:["","flor","fmc","mp","Ds"],  pA: "$175.000"},
+{ Nmb: "DMá", img: "DMá.jpeg", ctg:["","flor","mp","Ds"],  pA: "$135.000"}, 
+{ Nmb: "EM1", img: "EM1.jpeg", ctg:["","flor","fmc","mp"],  pA: "$68.000"},
+{ Nmb: "EM2", img: "EM2.jpeg", ctg:["","flor","mp"],  pA: "$98.000"},
+{ Nmb: "HW3", img: "HW3.jpeg",  ctg:["","flor","Di"], pA: "$78.000"},
+{ Nmb: "HW4", img: "HW4.jpg",  ctg:["","flor","Di"], pA: "$38.000"},
+{ Nmb: "MM1", img: "MM1.jpg", ctg:["","flor","fmc","mp"],  pA: "$88.000"},
+{ Nmb: "PR1", img: "PR1.jpg", ctg:["","flor","Di"],  pA: "$108.000"},
+{ Nmb: "Rl1", img: "Rl1.jpg", ctg:["","flor"],  pA: "$35.000"},
+{ Nmb: "Rl2", img: "Rl2.jpg", ctg:["","flor"],  pA: "$28.000"},
+{ Nmb: "Rl3H", img: "R13H.jpg", ctg:["","flor"],  pA: "$55.000"},
+{ Nmb: "Rl4", img: "Rl4.jpg", ctg:["","flor"],  pA: "$55.000"},
+{ Nmb: "Rl5", img: "Rl5.jpg", ctg:["","flor"],  pA: "$70.000"},
+{ Nmb: "Rl6", img: "Rl6.jpg", ctg:["","flor"],  pA: "$88.000"},
+{ Nmb: "Rl7", img: "Rl7.jpg", ctg:["","flor"],  pA: "$88.000"},
+{ Nmb: "Rl8", img: "Rl8.jpg", ctg:["","flor"],  pA: "$180.000"},
+{ Nmb: "RMA", img: "RMá.jpeg", ctg:["","flor","Di"],  pA: "$60.000"},
+        ];
+
+            function limpiarPrecio(precio) {
+                return parseFloat(precio.replace(/[^\d.-]/g, ''));
+            }
+
+            productos.sort(function(a, b) {
+                return limpiarPrecio(a.pA) - limpiarPrecio(b.pA);
+            });
+
+            function mostrarProductos(categoria) {
+                var catalogo = document.getElementById("catalogo");
+                catalogo.innerHTML = "";
+
+                productos.forEach(function(producto) {
+                    if (categoria === "todos" || producto.ctg.includes(categoria)) {
+                        var productoHTML = `
+                            <div class="container-productss">
+                                <div class="card-product">
+                                    <div class="container-img">
+                                        <picture>
+					<div onclick="mostrarSweetAlert('${producto.Nmb}')">
+                                        <img src="img/Catalogo/${producto.img}" alt="${producto.Nmb}" loading="lazy" />
+					</div>
+                                        </picture>
+                                        ${producto.descuento ? `<span class="discount">-${producto.descuento}</span>` : ''}
+                                        <div class="button-group">
+                                            <span><i class="fa-regular fa-heart"></i></span>
+                                            <br>
+                                        </div>
+                                        <div class="button-groupp" onclick="mostrarSweetAlert('${producto.Nmb}')">
+                                            <span> <i class="fa-regular fa-eye"> ver Descripcion</i></span>
+                                            <br>
+                                        </div>
+                                    </div>
+                                    <div class="content-card-product">
+                                        <div class="stars">
+                                            ${Array.from({ length: 5 }, () => `<i class="fas fa-star"></i>`).join('')}
+                                            ${Array.from({ length: 5 - 5 }, () => `<i class="far fa-star"></i>`).join('')}
+                                        </div>
+                                        <h3>Referencia: ${producto.Nmb}</h3>
+                                        <span class="add-cart">
+                                            <a href="https://wa.me/+573228766485?text=Revise%20la%20pagina%20y%20deseo%20agendar%20la%20Ref%20${producto.Nmb}" class="btn-2">
+                                                <i class="fa-solid fa-basket-shopping"></i>
+                                            </a>
+                                        </span>
+                                        <p class="price">${producto.pA} ${producto.precioAnterior ? `<span>${producto.precioAnterior}</span>` : ''}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        `;
+                        catalogo.innerHTML += productoHTML;
+                    }
+                });
+            }
+
+            // Mostrar todos los productos al cargar la página
+            mostrarProductos("todos");
+
+
+
+
+
+        });
+    </script>
+
+<section class="container top-categories">
+				<a href="referencia.html">
+    <h1 class="heading-1">... Más opciones ...</h1></a>
+				
+			</section>
+
+<br>
+
+	<div data-include="Fin.html"></div>
+
+    </footer>
+
+    <script src="https://kit.fontawesome.com/81581fb069.js" crossorigin="anonymous"></script>
+    <!-- Tu archivo de JavaScript personalizado -->
+    <script src="script.js"></script>
+</body>
+</html>
+
