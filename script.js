@@ -145,6 +145,11 @@ function mostrarSweetAlert(Nmb) {
 { Nmb: "RMA", img: "RMá.jpeg", pA: "$60.000", descrip:"❤️peluche❤️ramillete 3 rosas naturales o eternas y follaje ❤️ tarjeta personalizada ❤️ moños y cintas ❤️ emvolura"},
 { Nmb: "SPM", img: "SPM.jpg", pA: "$198.000", descrip:"Globo numero️ ❤ peluche spiderman ❤️ ensalada de frutas o huevos ranchero ❤️ bebida al gusto ❤️ gelatina de colores ❤️dulces variado ❤️ globo personalizado ❤️ cubiertos ecologicos ❤️ tarjeta personalizada ❤️ aderezos ❤️ moños y cintas ❤️ tematica al gusto"},
 { Nmb: "AMR7N", img: "AMR7N.jpeg", pA: "$95.000", descrip:"Arreglo floral con 3 girasoles y (adicional según el cliente anexo arreglo con billetes)❤️Caja decorada según temática❤️Ensalada con fruta natural❤️Aderezos❤️Cubiertos ecológicos❤️Tarjeta, moños y cintas según temática❤️"},
+{ Nmb: "B001", img: "B001.jpeg", pA: "158.000", descrip:"Arreglo floral de  3 rosas eternas o naturales. ❤️ Follaje variado. ❤️ con peluche a disponibilidad. ❤️ Caja con ensalada de frutas frescas variada. ❤️ Mix de yogurt griego y granola. ❤️ Aderezos . ❤️ Cubiertos ecológicos ❤️ Moños, cintas y mensajes según temática. ❤️ Dulces varios"},
+{ Nmb: "B002", img: "B002.jpeg", pA: "95.000", descrip:"Caja corazón con arreglo floral de 6 rosas eternas o naturales ❤️ Chocolates : 3 unidades ferreros y chocolates en burbujas. ❤️ Globo burbuja decorado según temática. ❤️ Moños ,cintas y mensajes según temática."},
+{ Nmb: "B003", img: "B003.jpeg", pA: "38.000", descrip:"Detalle en caja con ventana ❤️4 fresas con chocolate decoradas según temática ❤️ 2 mini donas decoradas con chocolate.❤️ Moños ,cintas y mensajes según temática."},
+{ Nmb: "B004", img: "B004.jpeg", pA: "58.000", descrip:"Linda caja decorada según temática ❤️ 1 rosa eterna o natural ❤️ Waffles doble tipo torta con frutas frescas ❤️ Dulces y galletas varios ❤️ Cubiertos ecológicos ❤️ Moños, cintas y mensajes según temática ❤️ Aderezos."},
+{ Nmb: "B005", img: "B005.jpeg", pA: "60.000", descrip:"peluche❤️ramillete 3 rosas naturales o eternas y follaje ❤️ tarjeta personalizada ❤️ moños y cintas ❤️ emvolura"},
                     
     ];
 
