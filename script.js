@@ -150,7 +150,11 @@ function mostrarSweetAlert(Nmb) {
 { Nmb: "B003", img: "B003.jpeg", pA: "38.000", descrip:"Detalle en caja con ventana ❤️4 fresas con chocolate decoradas según temática ❤️ 2 mini donas decoradas con chocolate.❤️ Moños ,cintas y mensajes según temática."},
 { Nmb: "B004", img: "B004.jpeg", pA: "58.000", descrip:"Linda caja decorada según temática ❤️ 1 rosa eterna o natural ❤️ Waffles doble tipo torta con frutas frescas ❤️ Dulces y galletas varios ❤️ Cubiertos ecológicos ❤️ Moños, cintas y mensajes según temática ❤️ Aderezos."},
 { Nmb: "B005", img: "B005.jpeg", pA: "60.000", descrip:"peluche❤️ramillete 3 rosas naturales o eternas y follaje ❤️ tarjeta personalizada ❤️ moños y cintas ❤️ emvolura"},
-                    
+{ Nmb: "B006", img: "B006.jpeg", pA: "48.000", descrip:"Lindo detalle con cerveza coronita. ❤️ Maní personal ❤️ Chocolatina Cruji Jet ❤️ 1 Carro Hotwells ❤️ Moños,decoración, cintas y mensaje según temática ❤️"},
+{ Nmb: "B007", img: "B007.jpeg", pA: "68.000", descrip:"Arreglo floral con 3 rosas eternas o naturales. ❤️ 1 carro hot Welles  ❤️ Arreglo de vaso con fresas con crema o partfait a elegir. ❤️ Cubiertos ecológicos  ❤️ Mensaje personalizado  ❤️ Moños ,cintas y arreglos según temática.❤️"},
+{ Nmb: "B008", img: "B008.jpeg", pA: "48.000", descrip:"Arreglo floral en bouquet con 4 rosas eternas o naturales.❤️ Follaje variado ❤️ Mensaje personalizado. ❤️ Moños y cintas según temática.❤️"},
+{ Nmb: "B009", img: "B009.jpeg", pA: "148.000", descrip:"Linda caja decorada en forma de corazon. ❤️ Arreglo floral en flores eternas o naturales con (3 girasoles , 3 rosas) ❤️8 fresas decoradas con chocolate según temática. ❤️ Globo burbuja decorado. ❤️ Mensaje personalizado. ❤️ Moños y cintas según temática.❤️"},
+                   
     ];
 
   // Encontrar el producto correspondiente al Nmb proporcionado
