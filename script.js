@@ -24,6 +24,8 @@ function mostrarSweetAlert(Nmb) {
 { Nmb: "Mom2", img: "Mom22.jpeg", pA: "$69.000", descrip:"❤️ bandeja en división sándwich♥️división mix fruta♥️postre o dulces- chocolates♥️bebida al gusto♥️lindo globo marcado segun tematica♥️moño y cubiertos ecológicos♥️tarjeta personalizada"},
 { Nmb: "Mom3", img: "Mom32.jpeg", pA: "$115.000", descrip:"❤️Linda canasta tejida con arreglo floral ❤️Mug personalizado según ocasión❤️Vaso domo con (fresas con crema o partfait)❤️Waffles en triángulo o mix de frutas.❤️Sandwich pollo,jamón,queso y verduras❤️Chocolates en burbujas❤️Bebida al gusto ❤️Cubiertos ecológicos ❤️Moños, cintas, tarjeta personalizada."},
 { Nmb: "Mom4", img: "Mom42.jpeg", pA: "$91.000", descrip:"❤️Linda caja de madera y acetato (decorada según ocasión)❤️Vaso domo parfait natural❤️Mix de fruta natural ❤️Bebida al gusto❤️Sandwich ( jamón,queso,pollo,verduras)❤️Porta retrato LOVE (foto)❤️Dulces (barra gol,2 chocolate burbuja)❤️Cubiertos ecológicos❤️Moños,cintas,tarjetas personalizadas con mensaje"},
+{ Nmb: "Mom5", img: "Mom52.jpeg", pA: "$91.000", descrip:"❤️Linda caja de madera y acetato (decorada según ocasión)❤️Virgen según disponibilidad ❤️2 rosas eternas o naturales según disponibilidad ❤️Porta retrato LOVE con foto❤️4 fresas con chocolate❤️Tarjeta, moños, cintas ,según ocasión."},
+
 { Nmb: "Aa28M", img: "A028A.jpg", pA: "$175.000", descrip:"♥️ caja de madera decorada♥️lindo globo burbuja marcado segun tematica♥️arreglo floralde 3 rosas ♥️foto♥️tarjeta personalizada segun tematica♥️omelette ♥️jugo natural al  gusto♥️yogurt  natural  ♥️mix de fruta ♥️Aderezos♥️sándwich con pollo♥️botella dulcera"},
 
                 
