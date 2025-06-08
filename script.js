@@ -163,7 +163,18 @@ function mostrarSweetAlert(Nmb) {
 { Nmb: "B007", img: "B007.jpeg", pA: "68.000", descrip:"Arreglo floral con 3 rosas eternas o naturales. ❤️ 1 carro hot Welles  ❤️ Arreglo de vaso con fresas con crema o partfait a elegir. ❤️ Cubiertos ecológicos  ❤️ Mensaje personalizado  ❤️ Moños ,cintas y arreglos según temática.❤️"},
 { Nmb: "B008", img: "B008.jpeg", pA: "48.000", descrip:"Arreglo floral en bouquet con 4 rosas eternas o naturales.❤️ Follaje variado ❤️ Mensaje personalizado. ❤️ Moños y cintas según temática.❤️"},
 { Nmb: "B009", img: "B009.jpeg", pA: "148.000", descrip:"Linda caja decorada en forma de corazon. ❤️ Arreglo floral en flores eternas o naturales con (3 girasoles , 3 rosas) ❤️8 fresas decoradas con chocolate según temática. ❤️ Globo burbuja decorado. ❤️ Mensaje personalizado. ❤️ Moños y cintas según temática.❤️"},
-                   
+
+
+
+                
+{ Nmb: "P0", img: "P0.jpeg", pA: "48.000", descrip:"Lindo detalle con cerveza coronita. ❤️ Maní personal ❤️ Chocolatina Cruji Jet ❤️ 1 Carro Hotwells ❤️ Moños,decoración, cintas y mensaje según temática ❤️"},
+{ Nmb: "P1", img: "P1.jpeg", pA: "$88.000", descrip:"❤️ Bandeja desayuno Papá ❤️ 1 carro Hotwells ❤️ Sandwich ( pollo, jamón y queso) ❤️ Postre o dulces ❤️ 3 división mix de frutas frescas ❤️ Bebida al gusto (cerveza coronita,jugo natural,te hatsu) ❤️ Cubiertos ecológicos ❤️ Mensaje personalizado ❤️ Moños,cintas según temática "},
+{ Nmb: "P2", img: "P2.jpeg", pA: "$88.000", descrip:"❤️ Bandeja ancheta Papá ❤️ Globo personalizado Papá ❤️ Bebida al gusto ( cerveza coronita, te Hatsu,jugo natural, o Coca Cola en lata.) ❤️ Waffles tipo torta con frutas frescas ❤️ Chocolates y Dulces varios ❤️ Foto con mensaje personalizado ❤️ Cubiertos ecológicos ❤️ Moños,decoración y cintas según temática"},
+{ Nmb: "P3", img: "P3.jpeg", pA: "$92.000", descrip:"❤️  Caja Flork Papá ❤️ Chocolates varios ❤️ Frutos secos ❤️ Galletas chokis ❤️ 1 carro Hotwells ❤️ Mug personalizado para papá ❤️ Tarjeta con mensaje,moños y cintas según temática"},
+{ Nmb: "P4", img: "P4.jpeg", pA: "$95.000", descrip:"❤️ Bandeja de madera exagonal ❤️ Linda decoración en globos y pines para papá ❤️ Sandwich en croissant (pollo, jamón, queso y verduras) ❤️ Mix de frutas naturales ❤️ Porción personal yogurt griego y cereales ❤️ Chocolatinas Gol ❤️ Bebida al gusto (cerveza coronita, te Hatsu, jugo natural) ❤️ Cubiertos ecológicos ❤️ Mensaje personalizado según ocasión"},
+{ Nmb: "P5", img: "P5.jpeg", pA: "$105.000", descrip:"❤️Bandeja cuadrada en madera Papá ❤️ Arreglo en globos medio arco ❤️ Ensalada de frutas frescas ❤️ Porción personal yogurt griego y cereales ❤️ Sandwich (pollo,jamón,queso y verduras ) ❤️ Bebida al gusto (coronita,jugo natural,te hatsu) ❤️ Galletas y dulces varios ❤️ Cubiertos ecológicos ❤️ Mensaje personalizado .Moños,cintas según temática"},
+{ Nmb: "P6", img: "P6.jpeg", pA: "$105.000", descrip:"❤️ Caja edición especial papá ❤️ Bandeja 5 divisiones (Postre,mix de frutas,frutos secos, sandwich o arepas rellenas, waffles) ❤️ 3 cervezas coronita ❤️ Globo burbuja personalizado según temática ❤️ Cubiertos ecológicos ❤️ Moños,cintas y mensaje personalizado"},
+
     ];
 
   // Encontrar el producto correspondiente al Nmb proporcionado
