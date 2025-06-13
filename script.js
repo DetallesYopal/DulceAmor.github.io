@@ -167,7 +167,7 @@ function mostrarSweetAlert(Nmb) {
 
 
                 
-{ Nmb: "P0", img: "P0.jpeg", pA: "48.000", descrip:"Lindo detalle con cerveza coronita. ❤️ Maní personal ❤️ Chocolatina Cruji Jet ❤️ 1 Carro Hotwells ❤️ Moños,decoración, cintas y mensaje según temática ❤️"},
+{ Nmb: "P0", img: "P0.jpeg", pA: "48.000", descrip:"Empaque coronita para papá❤️1 cerveza coronita ❤️ Chocolatinas cruji jet ❤️ Chocolates m&m ❤️ Ferrero Rocher x3unid  o carrito Hotwells ❤️ Mensaje personalizado según ocasión ❤️"},
 { Nmb: "P1", img: "P1.jpeg", pA: "$88.000", descrip:"❤️ Bandeja desayuno Papá ❤️ 1 carro Hotwells ❤️ Sandwich ( pollo, jamón y queso) ❤️ Postre o dulces ❤️ 3 división mix de frutas frescas ❤️ Bebida al gusto (cerveza coronita,jugo natural,te hatsu) ❤️ Cubiertos ecológicos ❤️ Mensaje personalizado ❤️ Moños,cintas según temática "},
 { Nmb: "P2", img: "P2.jpeg", pA: "$88.000", descrip:"❤️ Bandeja ancheta Papá ❤️ Globo personalizado Papá ❤️ Bebida al gusto ( cerveza coronita, te Hatsu,jugo natural, o Coca Cola en lata.) ❤️ Waffles tipo torta con frutas frescas ❤️ Chocolates y Dulces varios ❤️ Foto con mensaje personalizado ❤️ Cubiertos ecológicos ❤️ Moños,decoración y cintas según temática"},
 { Nmb: "P3", img: "P3.jpeg", pA: "$92.000", descrip:"❤️  Caja Flork Papá ❤️ Chocolates varios ❤️ Frutos secos ❤️ Galletas chokis ❤️ 1 carro Hotwells ❤️ Mug personalizado para papá ❤️ Tarjeta con mensaje,moños y cintas según temática"},
