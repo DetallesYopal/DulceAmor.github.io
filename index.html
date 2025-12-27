@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dulce Amor _ Detalles Yopal | Momentos Memorables</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  
+<style>
+    /* Anuncio */
+
+    #anuncioOverlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.6);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 9999;
+    }
+
+    /* Caja del anuncio */
+    #anuncioBox {
+        background: white;
+        padding: 10px;
+        max-width: 500px;
+        text-align: center;
+        border-radius: 12px;
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+        font-family: Arial, sans-serif;
+        animation: fadeIn 0.5s ease;
+    }
+
+    /* Imagen dentro del anuncio */
+    #anuncioBox img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        display: block;
+    }
+
+    #anuncioBox h2 {
+        margin-bottom: 15px;
+        font-size: 20px;
+        color: #d9534f;
+    }
+
+    #anuncioBox p {
+        margin-bottom: 20px;
+        font-size: 16px;
+        color: #333;
+    }
+
+    #cerrarBtn {
+        background: #d9534f;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 14px;
+    }
+
+    #cerrarBtn:hover {
+        background: #c9302c;
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: scale(0.9);
+        }
+
+        to {
+            opacity: 1;
+            transform: scale(1);
+        }
+    }
+</style>
+
+<!-- Anuncio emergente -->
+<div id="anuncioOverlay">
+        <div id="anuncioBox">
+            <img src="img/Unicos.png" alt="Unicos canales oficiales">
+            <button id="cerrarBtn">Entendido</button>
+        </div>
+    </div>
+
+    <script>
+        // Cerrar el anuncio al hacer clic en el botón
+        document.getElementById("cerrarBtn").addEventListener("click", function() {
+            document.getElementById("anuncioOverlay").style.display = "none";
+        });
+    </script> 
+    <!-- Anuncio emergente -->
+
+
+   <!-- <div id="anuncioOverlay">
+    <div id="anuncioBox">
+        <video controls>
+            <source src="Recursos/VideoGll.mp4" type="video/mp4">
+        </video>
+        <br>
+        <button id="cerrarBtn">Entendido</button>
+    </div>
+</div> -->
+  <body>
+    <div class="whatsapp-container">
+      <a
+        href="https://wa.me/+573228766485?text=Buen%20Dia%20Dulce%20Amor%20_Detalles%20Yopal%20estoy%20interesado%20en%20sus%20Servicios%20me%20pueden%20Colaborar"
+      >
+        <img
+          src="img/PhotoWhatsapp.png"
+          alt="Logo Whatsapp"
+          width="50"
+          height="50"
+      /></a>
+      <br />
+      <a href="https://www.facebook.com/share/193iBvHk5v/">
+        <img src="img/facebook.png" alt="Logo facebook" width="50" height="50"
+      /></a>
+      <br />
+      <a
+        href="https://www.instagram.com/dulceamor_detallesyopal/profilecard/?igsh=NWE4YzQ1YTl5ZHl3"
+      >
+        <img
+          src="img/instagram.png"
+          alt="Logo instagram"
+          width="50"
+          height="50"
+      /></a>
+      <br />
+      <a
+        href="https://www.tiktok.com/@detallesyopal.3228766485?_t=ZS-8vkaYkamQHC&_r=1"
+      >
+        <img src="img/tiktok.png" alt="Logo tiktok" width="50" height="50"
+      /></a>
+    </div>
+    <header class="main-header">
+      <div class="container nav-container">
+        <div class="logo">Dulce Amor _ <span> Detalles Yopal</span></div>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="Servicios.html">Servicios</a></li>
+            <li><a href="Portafolio.html">Portafolio</a></li>
+            <li><a href="Calendario.html">Calendario</a></li>
+            <li><a href="Nosotros.html">Nosotros</a></li>
+            <li><a href="Contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="inicio" class="hero">
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <span class="subtitle"
+              >Mi negocio es pequeño, pero tu recomendación y apoyo lo hacen
+              grande.</span
+            >
+            <h1>Creamos detalles para toda ocasión</h1>
+            <p style="text-align: justify;">
+              totalmente personalizables, con atención directa, procesos claros
+              y acompañamiento constante, garantizando que cada entrega refleje
+              exactamente lo que el cliente desea transmitir.
+              <br />
+              Cercana, responsable, creativa, confiable, empática y apasionada.
+              Una marca que conecta desde la emoción y cuida cada detalle con
+              profesionalismo.
+            </p>
+            <!-- <a href="https://wa.me/+573228766485?text=Buen%20Dia%20Dulce%20Amor%20_Detalles%20Yopal%20estoy%20interesado%20en%20sus%20Servicios%20me%20pueden%20Colaborar" class="btn btn-primary">Agendar una consulta</a> -->
+          </div>
+          <div class="hero-image">
+            <a
+              href="https://wa.me/+573228766485?text=Buen%20Dia%20Dulce%20Amor%20_Detalles%20Yopal%20estoy%20interesado%20en%20sus%20Servicios%20me%20pueden%20Colaborar"
+            >
+              <img src="img/entrega.png" alt="Detalle principal" />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="values">
+        <div class="container grid-3">
+          <div class="value-card">
+            <div class="icon">✨</div>
+            <h3>Misión</h3>
+            <p style="text-align: justify;">
+              En Dulce Amor creamos detalles personalizados y experiencias
+              memorables para todo tipo de ocasión, acompañando a personas y
+              empresas que desean expresar emociones auténticas a través de
+              regalos únicos. Trabajamos con dedicación, creatividad y
+              responsabilidad, ofreciendo calidad, puntualidad y atención
+              cercana, convirtiéndonos en cómplices de cada fecha especial en
+              Yopal, Casanare.
+            </p>
+          </div>
+          <div class="value-card">
+            <div class="icon">🌿</div>
+            <h3>Visión</h3>
+            <p style="text-align: justify;">
+              Ser un emprendimiento referente en Yopal y la región por la
+              creación de detalles personalizados y experiencias emocionales,
+              reconocido por su originalidad, confianza y capacidad de adaptarse
+              a las tendencias del mercado, fortaleciendo relaciones duraderas
+              con nuestros clientes y proyectando un crecimiento sostenible.
+            </p>
+          </div>
+          <div class="value-card">
+            <div class="icon">🎀</div>
+            <h3>Valores corporativos</h3>
+            <p style="text-align: justify;">
+              ° Confianza y transparencia
+              <br />
+              ° Responsabilidad e integridad
+              <br />
+              ° Respeto y cultura abierta
+              <br />
+              ° Pasión por lo que hacemos
+              <br />
+              ° Compromiso con la calidad
+              <br />
+              ° Disponibilidad al cambio y transformación
+              <br />
+              ° Trabajo en equipo y unión
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="servicios" class="services bg-alt">
+        <div class="container">
+          <div class="section-title">
+            <h2>Nuestros Servicios</h2>
+            <p>Detalles para toda ocasión</p>
+          </div>
+          <div class="grid-4">
+            <div class="service-item">
+              <img src="img/productos/196.png" alt="Servicio" />
+              <h4>Productos principales</h4>
+              <p style="text-align: justify;">
+                Detalles personalizados para toda ocasión Desayunos, almuerzos y
+                cenas sorpresa Arreglos florales naturales y eternos Detalles
+                corporativos y al por mayor Temáticas personalizadas (niños,
+                adultos, eventos especiales)
+              </p>
+            </div>
+            <div class="service-item">
+              <img src="img/productos/197.png" alt="Servicio" />
+              <h4>Características principales</h4>
+              <p style="text-align: justify;">
+                Personalización total Producción bajo disponibilidad y
+                agendamiento Materiales seleccionados Presentación cuidada y
+                estética
+              </p>
+            </div>
+            <div class="service-item">
+              <img src="img/productos/198.png" alt="Servicio" />
+              <h4>Beneficios para el cliente</h4>
+              <p style="text-align: justify;">
+                Regalos únicos y significativos Atención directa y
+                acompañamiento Evidencia completa del producto y entrega
+                Flexibilidad en diseño y contenido
+              </p>
+            </div>
+            <div class="service-item">
+              <img src="img/productos/199.png" alt="Servicio" />
+              <h4>Alcance del servicio</h4>
+              <p style="text-align: justify;">
+                Entregas exclusivamente en Yopal, Casanare Atención los 365 días
+                del año Evidencia fotográfica y en video de cada pedido Catálogo
+                con productos reales (sin imágenes externas) Atención 100 %
+                personalizada Transparencia en procesos y precios
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="portafolio" class="portfolio">
+        <div class="container">
+          <div class="section-title">
+            <h2>Galería de Momentos</h2>
+          </div>
+          <div class="masonry-grid">
+            <div class="portfolio-item">
+              <img src="img/productos/200.png" alt="Obra" />
+            </div>
+            <div class="portfolio-item">
+              <img src="img/productos/201.png" alt="Obra" />
+            </div>
+            <div class="portfolio-item">
+              <img src="img/productos/202.png" alt="Obra" />
+            </div>
+            <div class="portfolio-item">
+              <img src="img/productos/203.png" alt="Obra" />
+            </div>
+            <div class="portfolio-item">
+              <img src="img/productos/204.png" alt="Obra" />
+            </div>
+            <div class="portfolio-item">
+              <img src="img/productos/196.png" alt="Obra" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- <section id="nosotros" class="about">
+        <div class="container grid-2">
+          <div class="about-image">
+            <img src="img/logosinfondo.png" alt="Nuestro Equipo" />
+          </div>
+          <div class="about-text">
+            <h2>Historias detrás de cada lazo</h2>
+            <p style="text-align: justify;">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation.
+            </p>
+            <p style="text-align: justify;">
+              <strong>Nuestros Valores:</strong> Honestidad, Creatividad y
+              Pasión.
+            </p>
+          </div>
+        </div>
+      </section> -->
+
+      <section class="process bg-alt">
+        <div class="container">
+          <div class="section-title">
+            <h2>¿Cómo trabajamos?</h2>
+          </div>
+          <div class="process-steps">
+            <div class="step">
+              <span class="step-num">01</span>
+              <h4>Primer Paso</h4>
+              <p style="text-align: justify;">Elección del producto (catálogo o personalizado)</p>
+            </div>
+            <div class="step">
+              <span class="step-num">02</span>
+              <h4>Segundo Paso</h4>
+              <p style="text-align: justify;">Recolección de datos esenciales</p>
+            </div>
+            <div class="step">
+              <span class="step-num">03</span>
+              <h4>Tercer Paso</h4>
+              <p style="text-align: justify;">Realización del pago</p>
+            </div>
+            <div class="step">
+              <span class="step-num">04</span>
+              <h4>Cuarto Paso</h4>
+              <p style="text-align: justify;">Confirmación oficial del pedido</p>
+            </div>
+            <div class="step">
+              <span class="step-num">05</span>
+              <h4>Quinto Paso</h4>
+              <p style="text-align: justify;">Entrega del producto</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonials">
+        <div class="container">
+          <div class="testimonial-card">
+            <span class="client">Dulce Amor _ Detalles Yopal</span>
+            <p class="quote">
+              "mantiene una presencia digital activa y coherente a través de su
+              página web y redes sociales oficiales, donde comparte de forma
+              constante sus productos, entregas y novedades. La marca ha
+              construido una reputación basada en la transparencia, el
+              cumplimiento y la atención personalizada, respaldada por reseñas y
+              testimonios reales de clientes que hoy nos califican como una
+              empresa cinco estrellas. Cada interacción refleja nuestro
+              compromiso con la confianza, la calidad y el respeto por la
+              experiencia de quienes nos eligen."
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta">
+        <div class="container">
+          <h2>Hagamos tu próximo detalle inolvidable</h2>
+          <a
+            href="https://wa.me/+573228766485?text=Buen%20Dia%20Dulce%20Amor%20_Detalles%20Yopal%20estoy%20interesado%20en%20sus%20Servicios%20me%20pueden%20Colaborar"
+            class="btn btn-secondary"
+            >Contactar por WhatsApp</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer class="main-footer">
+      <div class="container grid-3">
+        <div class="footer-info">
+          <div class="logo">Dulce Amor _ <span> Detalles Yopal</span></div>
+          <p style="text-align: justify;">Creando momentos que perduran en el tiempo.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Navegación</h4>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="Servicios.html">Servicios</a></li>
+            <li><a href="Portafolio.html">Portafolio</a></li>
+            <li><a href="Calendario.html">Calendario</a></li>
+            <li><a href="Nosotros.html">Nosotros</a></li>
+            <li><a href="Contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Contacto</h4>
+          <p style="text-align: justify;">📍 Tienda Virtual, Yopal - Casanare</p>
+          <p style="text-align: justify;">📞 +57 322 876 6485 / 313 434 2325</p>
+          <p style="text-align: justify;">✉️ dulceamordetalles.yopal@gmail.com</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p style="text-align: justify;">
+          &copy; 2025 Dulce Amor _ Detalles Yopal. Todos los derechos
+          reservados.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
